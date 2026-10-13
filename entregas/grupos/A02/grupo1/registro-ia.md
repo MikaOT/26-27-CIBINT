@@ -16,15 +16,15 @@
 
 ## Uso 1
 
-- **Quién:**
-- **Herramienta:**
-- **Para qué:** explorar el caso / buscar ideas / aclarar un concepto / revisar la ortografía
-- **Apartado del plan:**
+- **Quién: Cayetano**
+- **Herramienta: Gemini (3.1PRO)**
+- **Para qué:** planificación del trabajo y revisar la ortografía
+- **Apartado del plan: 2.2, 4, 7, 8, 9**
 - **Prompt, copiado tal cual:**
 
-  ```text
+Adjunto chat
 
-  ```
-
-- **Qué hicimos con la respuesta:** qué usamos, qué descartamos y qué comprobamos
-- **Evidencia:** `ia/uso-01.png` o enlace a la conversación
+- **Qué hicimos con la respuesta:**
+Para el plan lo tuve en cuenta pero no lo palsme con exactitud, me sirvio como guía para entender más rapido que había apartados que requerían de otros para responder. Para la ortografia y expresión copie tal cual lo que me daba revisando que estaba correcto lo que me había corregido. 
+- **Evidencia:** 
+[Chat](https://share.gemini.google/HN0lO20Ex38g)
