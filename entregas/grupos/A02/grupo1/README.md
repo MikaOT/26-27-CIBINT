@@ -277,6 +277,7 @@ El trabajo se repartió por apartados y cada miembro subió los suyos al reposit
 
 ### Aportación individual
 
+
 **Cayetano Castillo Ruiz:**
 
 **¿Qué he hecho?:**
@@ -301,6 +302,15 @@ Realización del apartado 2.1 con 26 afirmaciones (dividiendo las proporcionadas
 **¿Qué apartado me ha resultado más difícil?:** 
 
 Atribuir sin añadir certeza y mantener el mismo tono del medio que lo comunica. Por ejemplo, conservar “estaría ofreciendo” o verificar que la captura no confirme nada, ya que proviene de la misma fuente.
+
+#### Saúl de Cos Sánchez
+He hecho los apartados 2.3 y 3, intentando encontrar la informacion que falta y las necesidades de inteligencia. Una vez hecho esto, he formulado preguntas de investigación.
+
+**¿Qué decisiones del grupo defiendo?:**
+Defiendo la decisión de haber descartado cualquier acción que requiera interactuar con HaciendaSec o comprar datos robados, además de evitar comprobar vulnerabilidades internas de hacienda
+
+**¿Qué apartado me ha resultado más difícil?:**
+Definir las preguntas del apartado 3, traduciendo dudas generales del ataque en preguntas de investigación concretas y que se puedan realizar
 
 ## Uso de inteligencia artificial
 
