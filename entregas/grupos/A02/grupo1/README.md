@@ -195,8 +195,16 @@ Si la investigación confirmara una filtración de datos de ciudadanos (H03) o e
 
 ### Aportación individual
 
-> **Qué debe contener:** un apartado por miembro, escrito por la propia persona y con su nombre: qué ha hecho, qué decisión del grupo defendió o discutió y qué le resultó más difícil.
+**Cayetano Castillo Ruiz:**
 
+**¿Qué he hecho?:**
+Me he encargado de analizar las fuentes dadas para el caso de Hacienda para extraer los hechos que dimos por establecidos en el apartado (2.2), tambien he definido el marco de legitimación y no inteferencia (4). Finalmente, desarrolle toda la fase operativa y de seguridad (apartados 7,8,9 y 10) ademas de unificar todo el trabajo realizado en el apartado (11) para dejar registrado el alcance de la investigación.
+
+**¿Qué decisión del grupo defiendo?:**
+Defiendo la necesidad de aplicar medidas de OPSEC casi paranoicas (uso de sockpuppets y máquinas virtuales aisladas) debido a los riesgos de investigar foros de la dark web. Tambien he discutido la clasificación de la información, argumentando que nuestro plan podía ser TLP:CLEAR, pero cualquier hallazgo debía tratarse obligatoriamente como TLP:AMBER para no alertar al atacante.
+
+**¿Qué apartado me ha resultado más difícil?:**
+Lo mas complejo fue el apartado (2.2), ya que tenía que filtrar la información de forma rigurosa dada en las fuentes de la actividad. También me supuso un reto cuadrar la tabla del alcance final (11) juntando toda la información registrada por los compañeros, para que no hubiera ninguna contradicción.
 ## Uso de inteligencia artificial
 
 La declaración está en [registro-ia.md](registro-ia.md).
