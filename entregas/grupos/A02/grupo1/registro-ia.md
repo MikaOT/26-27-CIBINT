@@ -25,6 +25,7 @@
 | `plan-grupo1` | `README.md` del plan de investigación del grupo 1 |
 | `registro-ia` | Este registro, `registro-ia.md` |
 | `evidencia-historial` | `ia/usos-01-14.txt`, la exportación de la conversación |
+| `ia-grupo2` | Carpeta `ia/` del grupo 2 |
 | `ruta local` | Ruta absoluta del equipo, citada de forma abreviada |
 
 Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.txt`, con las mismas referencias. En esa exportación se han sustituido además las rutas de los mensajes de contexto del editor y de los enlaces de las respuestas; el resto del texto no se ha modificado.
@@ -274,3 +275,18 @@ Para el plan lo tuve en cuenta pero no lo palsme con exactitud, me sirvio como g
 
 - **Qué hicimos con la respuesta:** Aceptar la censura y releer el archivo para asegurarnos que no hubieran filtraciones de datos sensibles
 - **Evidencia:** El propio archivo de `ia/usos-01-14.txt`
+
+## Uso 17
+
+- **Quién:** 
+- **Herramienta:** Claude Code, modelo Claude Opus 5.5
+- **Para qué:** revisar la ortografía de los apartados 5 y 6 ya redactados por el grupo (solo ortografía, puntuación y gramática, sin valorar el contenido) y aclarar qué dicen el enunciado y el Tema 2 sobre esos apartados. La IA guardó la evidencia en la carpeta `ia/` del grupo 1 en lugar de la del grupo 2, tras preguntarlo, porque el *pull request* solo puede modificar la carpeta del grupo
+- **Apartado del plan:** 5 y 6
+- **Prompt, copiado tal cual:**
+
+  ```text
+  Verifica las secciones 5 y 6 en [ruta omitida: plan-grupo1] para determinar si realizamos hay faltas ortográficas y menciona que es lo que dice la documentación [ruta omitida: documentacion-tema-02] respecto a esos enunciados. Verifica la ortografía. Recuerda siempre seguir lo establecido en [ruta omitida: registro-ia] y documenta este prompt en el directorio [ruta omitida: ia-grupo2] como esta el de [ruta omitida: evidencia-historial] . Censura los directorios igual que lo hace el archivo de [ruta omitida: evidencia-historial] porque contiene información sensible de nombres de usuarios
+  ```
+
+- **Qué hicimos con la respuesta:** 
+- **Evidencia:** `ia/uso-17.txt` (transcripción de la conversación)
