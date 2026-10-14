@@ -287,6 +287,21 @@ Defiendo la necesidad de aplicar medidas de OPSEC casi paranoicas (uso de sockpu
 
 **¿Qué apartado me ha resultado más difícil?:**
 Lo mas complejo fue el apartado (2.2), ya que tenía que filtrar la información de forma rigurosa dada en las fuentes de la actividad. También me supuso un reto cuadrar la tabla del alcance final (11) juntando toda la información registrada por los compañeros, para que no hubiera ninguna contradicción.
+
+#### Eirik Rosete
+
+**¿Qué he hecho?:**
+Realización del apartado 2.1 con 26 afirmaciones (dividiendo las proporcionadas en hechos.csv y H14–H21, obtenidas de las fuentes), del apartado 5 para el plan de obtención con dos evaluaciones de licitud y del apartado 6, las reglas de actuación; parte del apartado 11 con los apartados 5 y 6 y el resumen del apartado 1.
+
+**¿Qué decisiones del grupo defiendo?:**
+
+    - En el apartado 2.1, la mayoría de hechos afirmados tienen  “afirmada sin confirmar”, porque todos los medios dependen de la publicación y página web de Hackmanac;
+    - No investigar quién es HaciendaSec ni vulnerabilidades en Hacienda, porque no nos corresponde dicha tarea, como se explica en los apartados 5 y 6.
+
+**¿Qué apartado me ha resultado más difícil?:** 
+
+Atribuir sin añadir certeza y mantener el mismo tono del medio que lo comunica. Por ejemplo, conservar “estaría ofreciendo” o verificar que la captura no confirme nada, ya que proviene de la misma fuente.
+
 ## Uso de inteligencia artificial
 
 La declaración está en [registro-ia.md](registro-ia.md).
