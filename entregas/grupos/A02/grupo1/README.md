@@ -277,16 +277,16 @@ El trabajo se repartió por apartados y cada miembro subió los suyos al reposit
 
 ### Aportación individual
 
-> **Qué debe contener:** un apartado por miembro, escrito por la propia persona y con su nombre: qué ha hecho, qué decisión del grupo defendió o discutió y qué le resultó más difícil.
+**Cayetano Castillo Ruiz:**
 
-#### Eirik Rosete
+**¿Qué he hecho?:**
+Me he encargado de analizar las fuentes dadas para el caso de Hacienda para extraer los hechos que dimos por establecidos en el apartado (2.2), tambien he definido el marco de legitimación y no inteferencia (4). Finalmente, desarrolle toda la fase operativa y de seguridad (apartados 7,8,9 y 10) ademas de unificar todo el trabajo realizado en el apartado (11) para dejar registrado el alcance de la investigación.
 
-- Realización del apartado 2.1 con 26 afirmaciones (dividiendo las proporcionadas en hechos.csv y H14–H21, obtenidas de las fuentes), del apartado 5 para el plan de obtención con dos evaluaciones de licitud y del apartado 6, las reglas de actuación; parte del apartado 11 con los apartados 5 y 6 y el resumen del apartado 1.
-- Decisiones discutidas:
-    - En el apartado 2.1, la mayoría de hechos afirmados tienen  “afirmada sin confirmar”, porque todos los medios dependen de la publicación y página web de Hackmanac;
-    - no se buscaría quién es HaciendaSec ni vulnerabilidades en Hacienda, porque no nos corresponde dicha tarea, como se explica en los apartados 5 y 6.
-- Lo más difícil: atribuir sin añadir certeza y mantener el mismo tono del medio que lo comunica. Por ejemplo, conservar “estaría ofreciendo” o verificar que la captura no confirme nada, ya que proviene de la misma fuente.
+**¿Qué decisión del grupo defiendo?:**
+Defiendo la necesidad de aplicar medidas de OPSEC casi paranoicas (uso de sockpuppets y máquinas virtuales aisladas) debido a los riesgos de investigar foros de la dark web. Tambien he discutido la clasificación de la información, argumentando que nuestro plan podía ser TLP:CLEAR, pero cualquier hallazgo debía tratarse obligatoriamente como TLP:AMBER para no alertar al atacante.
 
+**¿Qué apartado me ha resultado más difícil?:**
+Lo mas complejo fue el apartado (2.2), ya que tenía que filtrar la información de forma rigurosa dada en las fuentes de la actividad. También me supuso un reto cuadrar la tabla del alcance final (11) juntando toda la información registrada por los compañeros, para que no hubiera ninguna contradicción.
 ## Uso de inteligencia artificial
 
 La declaración está en [registro-ia.md](registro-ia.md).
