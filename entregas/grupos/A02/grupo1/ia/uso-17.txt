@@ -1,0 +1,118 @@
+
+> Verifica las secciones 5 y 6 en [ruta omitida: plan-grupo1] para determinar
+  si realizamos hay faltas ortográficas y menciona que es lo que dice la
+  documentación [ruta omitida: documentacion-tema-02] respecto a esos
+  enunciados. Verifica la ortografía. Recuerda siempre seguir lo establecido
+  en [ruta omitida: registro-ia] y documenta este prompt en el directorio
+  [ruta omitida: ia-grupo2] como esta el de [ruta omitida: evidencia-historial]
+  . Censura los directorios igual que lo hace el archivo de
+  [ruta omitida: evidencia-historial] porque contiene información sensible de
+  nombres de usuarios
+  ⎿  Read [ruta omitida: plan-grupo1] (302 lines)
+  ⎿  Read [ruta omitida: documentacion-tema-02] (363 lines)
+  ⎿  Read [ruta omitida: registro-ia] (277 lines)
+
+● Consulto también la carpeta indicada, el formato de la evidencia y el
+  enunciado de la actividad (apartados 5 y 6 y reglas de IA de nivel C).
+
+  Read 3 files (ctrl+o to expand)
+
+● User answered Claude's questions:
+  ⎿  · Pediste guardar la evidencia en [ruta omitida: ia-grupo2], pero esa es
+     la carpeta del grupo 2 (caso Naturgy). El enunciado dice que el pull
+     request solo puede modificar archivos de la carpeta de tu grupo. ¿Dónde
+     la guardo? → grupo1/ia/ (Recommended)
+
+● Revisión de ortografía · apartados 5 y 6
+
+  Solo reviso ortografía, puntuación y gramática del texto ya escrito por el
+  grupo (nivel C). No valoro el contenido ni las decisiones.
+
+  Errores
+
+  ┌───────┬─────────────────────────────────┬─────────────────────────────────┐
+  │ Línea │ Texto actual                    │ Corrección                      │
+  ├───────┼─────────────────────────────────┼─────────────────────────────────┤
+  │ 122   │ «que se dijo que contenian»     │ «contenían» (falta la tilde)    │
+  ├───────┼─────────────────────────────────┼─────────────────────────────────┤
+  │ 127   │ «(Tema 2)Consultar motores»     │ «(Tema 2). Consultar motores»   │
+  │       │                                 │ (falta el punto y el espacio)   │
+  ├───────┼─────────────────────────────────┼─────────────────────────────────┤
+  │ 176   │ «Haría que el grupo se muestre  │ «se mostrara» o «se mostrase»   │
+  │       │ ante el actor»                  │ (tras un condicional va el      │
+  │       │                                 │ imperfecto de subjuntivo)       │
+  └───────┴─────────────────────────────────┴─────────────────────────────────┘
+
+  Puntuación que se presta a confusión
+
+  - Línea 149: «Sin cuenta ni identidad virtual, zona gris, Tema 2». Con
+    comas parece que «zona gris» describe la consulta sin cuenta. Si lo que
+    queréis decir es que la identidad virtual es la zona gris, un paréntesis
+    lo aclara: «Sin cuenta ni identidad virtual (zona gris según el Tema 2)».
+
+  Opcionales (concordancia de tiempos, no son faltas)
+
+  - Línea 119: «Es contenido público y no infringiríamos…» mezcla presente y
+    condicional.
+  - Línea 140: «Si se detectan, se detendría…»; lo habitual es «Si se
+    detectaran, se detendría…».
+  - Tabla 6.3: los encabezados están en condicional («Si ocurriera…», «Y
+    consultaría a…») y las filas en presente («Para», «No lo abre»). No es
+    incorrecto, pero podéis unificarlo.
+
+  El resto de los apartados 5 y 6 no tiene faltas.
+
+  Qué dice la documentación sobre estos apartados
+
+  Enunciado de la A02
+
+  - Apartado 5: cada fuente o técnica debe responder a una pregunta del
+    apartado 3, ser lícita, ser la menos intrusiva disponible e identificar
+    qué expondría y a quién. Para las dos más delicadas se completa la
+    plantilla de evaluación de licitud.
+  - Apartado 6: lo que solo se haría con condiciones, lo que no se haría
+    nunca en este caso concreto y cuándo se pararía. Las exclusiones deben ser
+    propias del caso, razonadas por el grupo; no sirve copiar las normas
+    generales.
+  - Rúbrica C4: las condiciones deben ser verificables y las de parada
+    concretas, indicando a quién se consultaría.
+
+  Tema 2
+
+  - Las tres preguntas (lícito; legítimo y proporcionado; seguro): una acción
+    puede superar la primera y fallar la segunda.
+  - Límites penales: art. 197.2 (datos reservados en ficheros), 197 bis.1
+    (acceso vulnerando medidas de seguridad), 197 ter (credenciales). «Estaba
+    publicado» no hace lícito el acceso, y «comprobar no es investigar»:
+    probar vulnerabilidades o accesos está prohibido en la asignatura.
+  - Pasivo antes que activo: consultar fuentes que ya recogieron la
+    información no deja rastro en el objetivo; acceder directamente, sí.
+  - Identidad de investigación: la consulta sin identificarse es adecuada; la
+    identidad virtual pasiva es zona gris; la que interactúa es engaño. En la
+    asignatura no se crean identidades ficticias ni se contacta con nadie, y
+    si una pregunta solo se responde entrando en un espacio cerrado, queda
+    fuera y se hace constar como limitación.
+  - Condiciones de uso: incumplirlas es en principio contractual, no penal,
+    pero tiene riesgo reputacional.
+  - Criterios de decisión (5 preguntas) y «Antes de cada obtención»: seis
+    comprobaciones en orden (pregunta del requerimiento, base de licitud,
+    sin acceder a sistemas protegidos, menos intrusiva, sin exponer la
+    investigación, registro en la bitácora). La plantilla de evaluación de
+    licitud las convierte en documento de trabajo.
+  - Cuándo detenerse: aparece un dato sensible inesperado, la pregunta exige
+    entrar en un espacio cerrado o contactar, la investigación se centra en
+    una persona, hay presión por un nombre o no está claro si es lícito. Se
+    para, no se copia ni reenvía nada, se deja constancia mínima y se consulta
+    por el canal privado de la asignatura.
+  - Registrar también lo que se decide no hacer.
+
+  Un dato para que lo valoréis vosotros: el tema enumera seis comprobaciones
+  y la fila «Validación» de la tabla 5.2 menciona las comprobaciones 1 a 4.
+  Si eso es correcto o hay que cambiarlo lo decide el grupo.
+
+  Registro
+
+  He guardado esta conversación en ia/uso-17.txt, con las rutas sustituidas
+  por las referencias de la nota del registro, y he añadido el Uso 17 en
+  registro-ia.md. Los campos «Quién» y «Qué hicimos con la respuesta» los
+  completa el grupo.

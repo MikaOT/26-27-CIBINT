@@ -1,18 +1,5 @@
 # Plan de investigación · Grupo 1 · Ministerio de Hacienda
 
-> **Plantilla de respuesta del grupo 1 · actividad A02.**
->
-> Este archivo es el plan de investigación de tu grupo. **Se trabaja directamente sobre él** y es el documento que se entrega y se evalúa.
->
-> Instrucciones de uso:
->
-> 1. Mantén los encabezados y su numeración.
-> 2. Sustituye cada bloque «**Qué debe contener**» por el contenido del grupo. No dejes ninguno sin sustituir.
-> 3. Cita cada afirmación sobre el caso con su identificador: `(H05)`, `(F04)`.
-> 4. Borra este recuadro de instrucciones antes de entregar.
->
-> Enunciado completo: [A02 · Plan de investigación](../../../../actividades/A02-plan-de-investigacion/README.md)
-
 ## Ficha del plan
 
 | Campo | Contenido |
@@ -20,14 +7,14 @@
 | Grupo | 1 |
 | Caso | Supuesta sustracción de datos de contribuyentes atribuida al Ministerio de Hacienda, febrero de 2026 |
 | Material de partida | [casos/hacienda](../../../../actividades/A02-plan-de-investigacion/casos/hacienda/README.md): `H01`–`H13` y `F01`–`F06` |
-| Portavoz | |
-| Miembros del equipo | |
+| Portavoz | Eirik Rosete |
+| Miembros del equipo | Cayetano Castillo, Saul de Cos y Eirik Rosete |
 
 ---
 
 ## 1. Resumen del plan
 
-> **Qué debe contener:** un párrafo, escrito al final, que permita entender el plan sin leer el resto: qué se querría saber y para qué, con qué fuentes y técnicas, con qué exclusiones principales y durante cuánto tiempo.
+El plan busca saber si la muestra que acompaña al anuncio de HaciendaSec es auténtica, si los datos ya se habían filtrado antes, si alguna fuente relaciona el anuncio con incidentes previos y qué dicen los organismos sobre una posible intrusión. El objetivo es académico, y el resultado ayudaría a que los organismos competentes valoren el incidente. Se usarían el material de partida, la publicación original de Hackmanac, los comunicados oficiales, los análisis de medios, organismos y empresas de seguridad, y las descripciones de filtraciones anteriores, siempre sin iniciar sesión y limitando la búsqueda a términos del incidente. No se entrará al foro, ni se verá o comprará la muestra, ni se contactará con el actor, ni se usarán identidades falsas, ni se identificará a HaciendaSec, ni se relacionará el caso con otros incidentes, ni se buscarán vulnerabilidades en los sistemas de Hacienda. El plan se mantendrá hasta que termine la evaluación de la práctica en el semestre actual.
 
 ## 2. Situación
 
@@ -61,8 +48,6 @@
 | H19 | UpGuard afirma que las reclamaciones de HaciendaSec se hicieron públicas el 3 de febrero de 2026 | UpGuard | No | Contradicha por otra fuente: F01, F02 y F03, publicadas el 2 de febrero, ya recogen la alerta |
 | H20 | El portal señala que los organismos competentes buscan determinar si la información mencionada por el atacante procede de otras fuentes externas, de filtraciones antiguas o de datos falsos reutilizados, una práctica que califica de habitual | Xunta de Galicia, portal de ciberseguridad | No. Coincide con H11, y ninguna de las dos cita fuente | Cálculo o interpretación de un tercero (hipótesis). Lo de práctica habitual es una generalización del portal |
 | H21 | Infobae sostiene que el supuesto ciberataque habría puesto en riesgo datos de prácticamente toda la población española | Infobae | No. F06 dice algo parecido | Cálculo o interpretación de un tercero a partir de la cifra del actor (H02). No es una cifra de afectados |
-
-> **Qué debe contener:** todas las afirmaciones relevantes del material de partida. La valoración indica cómo debe tratarse cada una: establecida, afirmada sin confirmar, cálculo o interpretación de un tercero, contradicha por otra fuente, etc.
 
 ### 2.2 Lo que puede darse por establecido
 
@@ -126,13 +111,52 @@ Usando las fuentes, sabemos seguro que hay investigaciones en curso por parte de
 
 ### 5.1 Fuentes y técnicas previstas
 
+Cada fuente o técnica se ha analizado con las tres preguntas del Tema 2: si es lícita, si es legítima y proporcionada, y si es segura. La licitud se explica en su columna; la legitimidad y proporcionalidad, en la de menor intrusión; y la seguridad, en lo que se expondría y a quién.
+
 | ID | Fuente o técnica | Pregunta a la que responde (3) | Por qué es lícita | Por qué es la menos intrusiva disponible | Qué expondría y a quién |
 |---|---|---|---|---|---|
-| OB1 | | | | | |
+| OB1 | Lectura del material de partida (F01–F06) | 1 y 2 | Es el material que nos han facilitado | No hace falta consultar nada más | Nada |
+| OB2 | Publicación original de Hackmanac en X y en su web (H14), consultada sin iniciar sesión | 1 | Es contenido público y no se infrige algún sobrepaso de medida de seguridad | Sustituye a entrar directamente al foro del anuncio (H15, H16) | Una visita a X y a la web de Hackmanac, que no son el adversario. La imagen y las respuestas podrían mostrar datos de terceros |
+| OB3 | Comunicados oficiales del Ministerio de Hacienda, la Agencia Tributaria y el CCN-CERT | 1, 2 y 4 (en parte) | Son publicaciones oficiales y públicas | Es la fuente directa de la organización afectada, sin intermediarios | Mínima: una visita a webs oficiales |
+| OB4 | Búsqueda limitada, en un buscador web y con términos del incidente, de análisis publicados después del 5 de febrero sobre la autenticidad o el origen de los datos, y sobre si alguna fuente relaciona el anuncio con incidentes anteriores | 1, 2 y 3 (en parte) | Solo se abrirían resultados públicos, según lo indicado en 6.1 | Es la alternativa a entrar en el foro o seguir al actor | Los resultados podrían llevar al foro, a copias de la muestra o a datos de contribuyentes. El buscador guardaría las consultas |
+| OB5 | Descripción publicada de las filtraciones previas (H12, H17), solo de los tipos de datos que se dijo que contenían | 2 | Solo se consultarían descripciones, nunca los datos (art. 197.2 CP) | Es la opción para evitar comparar con los datos filtrados | Las páginas pueden enlazar a esas filtraciones. Se compararían campos, no actores; no se relacionaría a HaciendaSec con esos incidentes |
+
+Las preguntas 3 y 4 del apartado 3 solo se cubren en parte:
+
+- Pregunta 3: OB4 recogería si alguna fuente publicada relaciona el anuncio con los incidentes de 2025 (H12, H17), sin que el grupo establezca esa relación. No se prevé ninguna técnica para saber quién es HaciendaSec: identificar a una persona no corresponde al grupo, y reunir lo publicado por el alias no sería proporcionado (Tema 2). Corresponde a las Fuerzas y Cuerpos de Seguridad del Estado.
+- Pregunta 4: OB3 recogería lo que el ministerio o el CCN-CERT publicasen sobre una posible vulnerabilidad o intrusión. No se prevé ninguna técnica para buscar vulnerabilidades: probarlas sería ilícito, porque comprobar no es investigar (Tema 2). Consultar motores que indexan infraestructura sería lícito, pero no estaría justificado para un grupo que no tiene encargo de la organización afectada. Eso es tarea del ministerio y del CCN-CERT.
+
+Estas exclusiones se recogen en el 6.2.
 
 ### 5.2 Evaluaciones de licitud
 
-> **Qué debe contener:** la [plantilla de evaluación de licitud](https://github.com/hector-ae21/CIBINT/blob/main/plantillas/plantilla-evaluacion-licitud.md) completa para las dos fuentes o técnicas del plan que el grupo considere más delicadas, con la justificación de por qué son esas dos.
+Se elige OB4 porque es la que más dudas plantea: podría devolver datos de contribuyentes o copias de la muestra. Se elige OB2 porque plantea un riesgo distinto: X podría pedir iniciar sesión y la captura muestra contenido del actor.
+
+| Campo de la plantilla | OB4 · búsqueda limitada | OB2 · publicación de Hackmanac |
+|---|---|---|
+| Pregunta (3) | 1, 2 y 3 (en parte) | 1 |
+| Quién investiga y fecha | El grupo, en una práctica de la asignatura (05/10/2026) | Igual |
+| Datos de personas identificables | No se buscan, pero pueden salir datos de contribuyentes | No se buscan, pero pueden salir cuentas de usuarios y la muestra |
+| Categorías especiales o datos penales (art. 9 y 10 RGPD) | No. Si se detectaran, se detendría y se consultaría | Igual |
+| Base de licitud | Interés legítimo académico (apartado 4) | Igual |
+| Por qué es necesario | Solo se puede responder a esas preguntas con lo que otros ya publicaron | Esa es la fuente principal de la alerta |
+| Qué se descarta | Datos de contribuyentes y publicaciones del alias que no tienen relación con el incidente | Cuentas, comentarios y cualquier dato de la muestra |
+| Informar a los afectados | No: no se tratarían sus datos | Igual |
+| Conservación | Hasta la revisión de la calificación | Igual |
+| Supera medidas de seguridad | No; se descartarían los resultados que pidan registro | No; si X pide sesión, se para |
+| Credenciales, contacto o suplantación | No | No; no se respondería ni se escribiría a Hackmanac |
+| Investigar a una persona por encargo | No: los términos son del incidente | No |
+| Condiciones de uso | Uso normal de un buscador | Sin cuenta ni identidad virtual, (zona gris según el Tema 2 )|
+| Forma menos intrusiva | OB1 y OB3, que irían antes | La imagen que reproduce F02 (OB1) |
+| Quién podría resultar perjudicado | Contribuyentes, si salieran sus datos | Contribuyentes y usuarios que respondan |
+| Explicable a un tercero imparcial | Sí, con las condiciones del 6.1 | Sí |
+| Rastro en sistemas del objetivo | No, si el foro y los sitios del actor no se abren | No: X y Hackmanac no son el adversario |
+| Medios de trabajo y envío a terceros | Medios separados, solo los términos de búsqueda | Medios separados, nada |
+| Quién conoce el resultado | El grupo y el docente, TLP:AMBER | Igual |
+| Decisión | Adecuada con condiciones | Adecuada con condiciones |
+| Condiciones | Las del 6.1 | Las del 6.1 |
+| Consultas | El docente, por el canal privado | Igual |
+| Validación | Cumple las comprobaciones 1 a 4. La bitácora se genera al ejecutar (ver apartado 9) | Igual |
 
 ## 6. Reglas de actuación
 
@@ -140,21 +164,33 @@ Usando las fuentes, sabemos seguro que hay investigaciones en curso por parte de
 
 | Actuación | Condición que debería cumplirse | Quién comprobaría que se cumple |
 |---|---|---|
-| | | |
+| OB2 · publicación de Hackmanac | Sin sesión iniciada. Si X lo pide, se usa la imagen de F02 y no se amplía | Otro miembro del grupo |
+| OB4 · búsqueda limitada | Solo se abren medios, organismos y empresas de seguridad. No se abren foros, copias de la muestra ni sitios del actor | Otro miembro del grupo |
+| OB5 · filtraciones anteriores | Solo se revisa la descripción; no se abre ningún enlace a los datos | Otro miembro del grupo |
+| Guardar capturas | Sin datos personales, o recortadas antes de guardarlas | El portavoz |
 
 ### 6.2 Lo que no se haría
 
 | Exclusión propia de este caso | Por qué |
 |---|---|
-| | |
-
-> **Qué debe contener:** las tentaciones concretas que este caso ofrece a quien lo investiga, descartadas de forma expresa y razonada. Copiar las normas de la asignatura no cumple este apartado.
+| Entrar en ForumBreach (H16) para ver el anuncio o la muestra | Haría que el grupo se mostrase ante el actor y puede implicar manejar datos filtrados (art. 197.2 CP) |
+| Intentar ver la muestra sin censura o buscar copias | Significa apropiarse de datos de contribuyentes (art. 197.2 CP) |
+| Responder al anuncio, que ofrece más registros (H15), o comprar la base de datos | Sería contactar con el actor y financiar un delito |
+| Usar una identidad ficticia en X o en el foro | El Tema 2 la sitúa en zona gris |
+| Buscar el DNI propio o de familiares en servicios de comprobación de filtraciones | Esto implica manejar datos filtrados y genera un conflicto de intereses |
+| Identificar a HaciendaSec o reunir lo que publica | No corresponde al grupo (pregunta 3) |
+| Relacionar el caso con Qilin, con los incidentes de 2024 y 2025 o con GordonFreeman (H07, H12, H17) | No hay fundamento para vincularlos |
+| Buscar vulnerabilidades en los sistemas de Hacienda, ya sea de forma activa o pasiva | Sería ilícito o desproporcionado (pregunta 4) |
 
 ### 6.3 Condiciones de parada
 
 | Si ocurriera… | El equipo… | Y consultaría a… |
 |---|---|---|
-| | | |
+| Aparece un dato personal sin censurar | Para, no lo copia y anota solo la URL | El docente, por el canal privado |
+| Un resultado lleva al foro o a una descarga | No lo abre y lo descarta | El docente |
+| Un miembro identifica datos suyos o de su entorno | Se retira de esa tarea | El portavoz y el docente |
+| Una fuente menciona a una persona real como HaciendaSec | No sigue esa línea ni la registra | El docente |
+| Alguien externo contacta con el grupo por el caso | No responde | El docente |
 
 ## 7. Tratamiento de datos personales
 
@@ -207,9 +243,9 @@ Si la investigación confirmara una filtración de datos de ciudadanos (H03) o e
 |---|---|
 | Objetivo |Verificar la existencia, origen y veracidad de la supuesta filtración de datos de 47,3 millones de ciudadanos atribuida a Hacienda, evaluando la credibilidad del actor 'HaciendaSec' mediante fuentes abiertas. |
 | Finalidad |Realizar una práctica académica universitaria (interés legítimo) y generar un reporte técnico sobre el incidente para que los organismos competentes puedan tomar medidas de protección. |
-| Fuentes permitidas | |
-| Técnicas permitidas | |
-| Exclusiones específicas |Se excluye cualquier interacción con el actor 'HaciendaSec', la compra o descarga masiva de datos personales, el escaneo activo de infraestructuras del Ministerio, y el contacto directo con posibles afectados |
+| Fuentes permitidas | Material de partida (F01–F06), publicación de Hackmanac en X y en su web, comunicados oficiales del Ministerio de Hacienda, la Agencia Tributaria y el CCN-CERT, análisis publicados por medios, organismos y empresas de seguridad, y descripciones publicadas de las filtraciones anteriores (OB1–OB5) |
+| Técnicas permitidas | Lectura del material, consulta sin iniciar sesión, búsqueda limitada en un buscador web con términos del incidente y lectura de descripciones, nunca de los datos (OB1–OB5, con las condiciones del 6.1) |
+| Exclusiones específicas |Se excluye cualquier interacción con el actor 'HaciendaSec', la compra o descarga de datos personales, el escaneo activo de infraestructuras del Ministerio, y el contacto directo con posibles afectados. También entrar en ForumBreach, intentar ver la muestra sin censurar, usar identidades ficticias, buscar datos propios en servicios de comprobación de filtraciones, identificar a HaciendaSec, vincular el caso con otros incidentes y buscar vulnerabilidades de forma activa o pasiva (6.2) |
 | Canal de entrega del resultado |Entrega del informe técnico mediante correo electrónico cifrado (PGP) o plataformas de reporte seguro a los organismos competentes, bajo protocolo TLP:AMBER |
 | Vigencia |Hasta la finalización de la evaluación de la práctica académica en el semestre en curso. |
 
@@ -220,15 +256,24 @@ Si la investigación confirmara una filtración de datos de ciudadanos (H03) o e
 
 | ID | Organización | Título | Fecha de consulta |
 |---|---|---|---|
-| | | | AAAA-MM-DD |
+| F01 | Infobae | Hacienda alerta de un posible ciberataque a sus bases de datos: está en riesgo información personal de 47,3 millones de ciudadanos | 05/10/2026 |
+| F02 | 65ymas | Hacienda investiga si un ciberataque ha sustraído datos de 47 millones de contribuyentes | 05/10/2026 |
+| F03 | Hipertextual | Nuevo hackeo a Hacienda: qué se sabe y cómo proteger tus datos | 05/10/2026 |
+| F04 | idealista/news | Hacienda descarta haber sufrido un ciberataque con robo de datos tal y como señaló Hackmanac | 05/10/2026 |
+| F05 | Xunta de Galicia · Ciberseguridade Galicia | El Ministerio de Hacienda descarta una brecha de datos tras las verificaciones internas realizadas | 05/10/2026 |
+| F06 | UpGuard | HaciendaSec Claims Data Breach on Spain’s Ministry of Finance | 05/10/2026 |
 
-> **Qué debe contener:** las fuentes del material de partida que el grupo ha leído y citado.
+La fecha es la de la primera consulta. Las fuentes se volvieron a consultar durante todo el trabajo.
 
 ## Equipo
 
 ### Organización del trabajo
 
-> **Qué debe contener:** cómo se ha organizado el grupo y quién se ha encargado de qué.
+El trabajo se repartió por apartados y cada miembro subió los suyos al repositorio:
+
+- Cayetano Castillo: 2.2, 4, 7, 8, 9, 10 y 11.
+- Saul de Cos: 2.3 y 3.
+- Eirik Rosete: 1, 2.1, 5, 6, Fuentes y las fuentes y técnicas permitidas del 11.
 
 ### Aportación individual
 
@@ -248,9 +293,9 @@ La declaración está en [registro-ia.md](registro-ia.md).
 
 ## Comprobación antes de entregar
 
-- [ ] Todos los bloques «Qué debe contener» están sustituidos.
-- [ ] Ninguna afirmación no confirmada se presenta como establecida.
-- [ ] No se ha realizado ninguna búsqueda ni obtención de información fuera del material de partida.
-- [ ] El repositorio no recibe archivos de noticias, capturas con datos personales ni material no publicable.
-- [ ] `registro-ia.md` está completo, con los prompts, o declara que no se ha usado IA.
-- [ ] El *pull request* solo modifica archivos de la carpeta del grupo.
+- [x] Todos los bloques «Qué debe contener» están sustituidos.
+- [x] Ninguna afirmación no confirmada se presenta como establecida.
+- [x] No se ha realizado ninguna búsqueda ni obtención de información fuera del material de partida.
+- [x] El repositorio no recibe archivos de noticias, capturas con datos personales ni material no publicable.
+- [x] `registro-ia.md` está completo, con los prompts, o declara que no se ha usado IA.
+- [x] El *pull request* solo modifica archivos de la carpeta del grupo.
