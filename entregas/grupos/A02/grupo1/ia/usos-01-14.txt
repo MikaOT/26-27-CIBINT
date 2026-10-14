@@ -1,0 +1,1331 @@
+
+> <ide_opened_file>The user opened the file
+  [ruta omitida: documentacion-tema-02] in the IDE. This may or may not
+  be related to the current task.</ide_opened_file>
+
+> Vamos a realizar la actividad de
+  [ruta omitida: enunciado-A02]  usando el
+  caso el grupo de hacienda
+  [ruta omitida: caso-hacienda]
+    . Debes limitarte al uso de inteligencia aartifical marcado a partir de la
+  línea 91 del documento
+  [ruta omitida: enunciado-A02] , SIEMPRE
+  deberás actuar consultando esto antes de cualquier acción; si una petición
+  mía contradice estos límites, márcamelo y no respondas, limita tu
+  comportamiento a estas reglas durante TODA la conversación.
+
+  Toda la documentación relevante para esta práctica está en
+  [ruta omitida: documentacion-tema-02]   en dicho
+  directorio de 02-marclo-legal-etica-y-opsec. Ayúdame a realizar el apartado
+  2.2, recuerda siempre siguiendo las reglas
+  ⎿  Read [ruta omitida: enunciado-A02] (203
+     lines)
+  ⎿  Read [ruta omitida: caso-hacienda] (34 lines)
+  ⎿  Read [ruta omitida: documentacion-tema-02] (363
+     lines)
+
+● Primero voy a consultar la plantilla del grupo para ver qué pide exactamente
+  el apartado 2.2.
+
+  Searched for 2 patterns, read 3 files (ctrl+o to expand)
+
+● ⚠️ No puedo hacer esta petición: va contra las reglas de IA de nivel C
+
+  Antes de nada he consultado la tabla de la sección 6 del enunciado
+  [ruta omitida: enunciado-A02] y lo
+  que pide la plantilla para el 2.2 en README.md:42-44
+  [ruta omitida: plan-grupo1]: «solo lo que las
+  fuentes permiten sostener, con su identificador, y por qué se considera
+  establecido».
+
+  Ayudaros con el 2.2 chocaría con dos prohibiciones expresas del nivel C:
+
+  ┌───────────────────────────────┬─────────────────────────────────────────┐
+  │    Prohibido usar IA para…    │          Por qué afecta al 2.2          │
+  ├───────────────────────────────┼─────────────────────────────────────────┤
+  │ Valorar las afirmaciones del  │ Es justo lo que pide el 2.2: elegir qué │
+  │ caso o decidir qué se da por  │  afirmaciones (H01–H13) se consideran   │
+  │ establecido                   │ establecidas y por qué.                 │
+  ├───────────────────────────────┼─────────────────────────────────────────┤
+  │ Redactar los apartados del    │ Aunque fuera solo un borrador o una     │
+  │ plan                          │ propuesta, sería redactar el apartado.  │
+  └───────────────────────────────┴─────────────────────────────────────────┘
+
+  Por eso no os propongo qué afirmaciones son establecidas, no os comento las
+  H01–H13 y no os doy un borrador. Además, hacerlo os costaría −2,5 puntos por
+  «usar la IA para algo que el nivel C no permite» (README.md:189
+  [ruta omitida: enunciado-A02]), y
+  afectaría también al C1, que cuenta 1,5.
+
+  En qué sí puedo ayudaros con el 2.2, dentro de las reglas
+
+  - Aclarar conceptos del tema en general, sin aplicarlos a vuestro caso. Por
+    ejemplo: la diferencia entre «está establecido que X lo afirma» y «está
+    establecido que X ocurrió», qué es una confirmación independiente, o el
+    principio de exactitud y la humildad analítica del Tema 2.
+  - Revisar la ortografía del 2.2 una vez lo hayáis escrito vosotros. Solo la
+    ortografía, no el contenido ni la valoración.
+
+  Os recuerdo dos cosas más:
+  - Esta conversación hay que declararla en registro-ia.md
+    [ruta omitida: registro-ia], con el prompt tal
+    cual y su evidencia en ia/.
+  - Las seis fuentes (F01–F06) tenéis que leerlas vosotros. Yo no voy a
+    consultarlas, porque la IA no puede ser fuente de ningún hecho.
+
+> <ide_opened_file>The user opened the file [ruta omitida: plan-grupo1] in
+  the IDE. This may or may not be related to the current
+  task.</ide_opened_file>
+
+> Vale, entonces dime cómo es que relleno la tabla, es decir, qué es lo que
+  significa cada columna y cómo está relacionada con la documentación del tema
+
+● Entiendo que hablas de la tabla del apartado 2.1 (README.md:36-38
+  [ruta omitida: plan-grupo1]), que es la única
+  de la sección 2 (el 2.2 es texto libre). Explicar qué significa cada columna
+  es aclarar conceptos, y eso está permitido. Para no valorar vuestro caso, los
+  ejemplos son inventados y no usan las afirmaciones H01–H13.
+
+  Las columnas de la tabla 2.1
+
+  Columna: ID
+  Qué significa: El identificador de la afirmación en hechos.csv (H05). Si os
+  sirve, podéis añadir también la fuente: H05 (F01).
+  Relación con la documentación: La plantilla obliga a citar con identificador,
+  y
+  citar mal cuesta −2,5 (README.md:186
+  [ruta omitida: enunciado-A02]). Si una
+   fila del CSV no coincide con su fuente, prevalece la fuente y hay que
+  señalarlo (casos/README.md:46
+  [ruta omitida: casos-A02]).
+  ────────────────────────────────────────
+  Columna: Qué se afirma
+  Qué significa: El contenido de la afirmación, sin añadir valoración ni matices
+
+  propios.
+  Relación con la documentación: El README de casos insiste en que «cada fila
+  recoge lo que alguien dice, no lo que ha ocurrido». Esta columna mantiene esa
+   misma neutralidad.
+  ────────────────────────────────────────
+  Columna: Quién lo afirma
+  Qué significa: Quién es el origen de la afirmación y por quién os llega. Si un
+
+  medio reproduce lo que dice otro, aparecen los dos («X, según Y»).
+  Relación con la documentación: El enunciado pide distinguir cinco papeles:
+  organización afectada, quien se atribuye el incidente, empresas que lo
+  difunden, medios y organismos públicos (README.md:47
+  [ruta omitida: enunciado-A02]).
+  Conviene que esta columna deje claro cuál de esos papeles tiene cada uno.
+  ────────────────────────────────────────
+  Columna: ¿Lo confirma alguien independiente?
+  Qué significa: Si otra fuente que no depende del mismo origen sostiene lo
+  mismo, y cuál es (con su ID).
+  Relación con la documentación: Tema 2, principio de exactitud (art. 5.1.d RGPD
+
+  y Protocolo de Berkeley: «verificar antes de atribuir») y la amenaza de
+  información sembrada para engañar, que se previene «corroborando con fuentes
+  independientes». Un ejemplo inventado: si cinco periódicos repiten lo que
+  dijo una sola cuenta anónima, no hay cinco confirmaciones, sino un único
+  origen amplificado.
+  ────────────────────────────────────────
+  Columna: Valoración
+  Qué significa: Cómo debe tratarse la afirmación en el resto del plan.
+  Relación con la documentación: La plantilla da categorías orientativas, que se
+
+  explican a continuación. Esta columna es la que conecta con la distinción
+  hecho / inferencia / supuesto del Tema 1, que el Tema 2 llama «la barrera que
+   impide que una sospecha se convierta en una acusación».
+
+  Categorías de la columna «Valoración»
+
+  Son los significados genéricos. Qué categoría corresponde a cada H lo decidís
+  vosotros.
+
+  ┌──────────────────────┬──────────────────────────────────────────────────┐
+  │      Categoría       │                   Significado                    │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │                      │ La fuente la sostiene y además hay confirmación  │
+  │ Establecida          │ independiente, o bien la afirmación es de un     │
+  │                      │ tipo que la fuente puede acreditar por sí misma. │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ Afirmada sin         │ Alguien la dice, pero nadie independiente la     │
+  │ confirmar            │ respalda.                                        │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ Cálculo o            │ No es un dato, sino una lectura, estimación o    │
+  │ interpretación de un │ conclusión de quien la publica.                  │
+  │  tercero             │                                                  │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ Contradicha por otra │ Otra fuente dice lo contrario o algo             │
+  │  fuente              │ incompatible. Conviene indicar con qué ID choca. │
+  └──────────────────────┴──────────────────────────────────────────────────┘
+
+  Un matiz conceptual que suele marcar la diferencia en el C1: «está establecido
+  que A dijo X» no es lo mismo que «está establecido X». Lo primero puede ser
+  cierto aunque lo segundo no lo sea. La rúbrica premia justo esa precisión y
+  penaliza con −0,5 por caso presentar como establecido algo no confirmado o
+  vincular hechos sin base (README.md:200
+  [ruta omitida: enunciado-A02]).
+
+  Cómo encaja con el resto de la sección 2
+
+  - 2.1 recoge todas las afirmaciones relevantes, cada una con su valoración.
+  - 2.2 recoge las que hayáis valorado como establecidas y explica el porqué.
+  - 2.3 recoge lo que queda abierto, y de ahí salen las preguntas del
+    apartado 3.
+
+  Por eso la columna «Valoración» es la bisagra del plan: lo que pongáis ahí
+  determina el 2.2 y el 2.3.
+
+  Acordaos de añadir este uso al registro-ia.md
+  [ruta omitida: registro-ia] con el prompt tal
+  cual («Vale, entonces dime cómo es que relleno la tabla…»), indicando que es
+  una aclaración de conceptos para el apartado 2.1.
+
+> Cómo es que podríamos distribuirnos el trabajo entre tres personas,
+  deberíamos seguir el hilo? Deberíamos trabajar en lo mismo a la vez? Veo que
+  la manera de realizar este ejercicio depende del apartado anterior
+
+● Antes de responder he comprobado los límites. Organizar el equipo no aparece
+  ni entre los usos permitidos ni entre los prohibidos del nivel C, pero el
+  enunciado dice que «el grupo decide cómo se organiza y cómo reparte el
+  trabajo» (README.md:83
+  [ruta omitida: enunciado-A02]), y el
+  subapartado «Organización del trabajo» forma parte de la entrega. Así que os
+  doy opciones con sus ventajas e inconvenientes, pero no os digo cuál elegir ni
+  os redacto ese subapartado. La decisión y la redacción son vuestras.
+
+  Cómo dependen unos apartados de otros
+
+  Tenéis razón en que es una cadena, pero no del todo lineal:
+
+  2 Situación ──► 3 Necesidad ──► 4 Legitimación ──► 5 Obtención (+5.2 licitud)
+                                                          │
+                         ┌────────────────┬───────────────┼───────────────┐
+                         ▼                ▼               ▼               ▼
+                   6 Reglas      7 Datos personales   8 OPSEC    9 Trazab. / 10
+  Difusión
+                         └────────────────┴───────┬───────┴───────────────┘
+                                                  ▼
+                                      11 Alcance ──► 1 Resumen
+
+  - La parte en serie es 2 → 3 → 5. Las preguntas salen de las lagunas, y las
+    fuentes tienen que responder a esas preguntas.
+  - Lo que se puede preparar en paralelo desde el principio es la base
+    conceptual de los apartados 4, 8, 9 y 10. El marco aplicable a estudiantes,
+    el proceso OPSEC, la bitácora y el SHA-256 o el TLP del Tema 2 se pueden
+    estudiar antes de conocer las preguntas concretas, aunque se terminen de
+    ajustar después.
+  - Después del 5, los apartados 6, 7, 8, 9 y 10 se pueden repartir, porque
+    dependen del 5 pero no tanto entre sí.
+  - El 11 y el 1 van al final. Resumen lo anterior y tienen que corresponder
+    exactamente al resto del plan, así que conviene hacerlos juntos.
+
+  Opciones de organización
+
+  Opción: A · Todos a la vez en cada apartado
+  Cómo funciona: Los tres avanzáis juntos por la cadena
+  A favor: Coherencia máxima; los tres podéis defender todo
+  En contra: Más lenta; cuesta concretar la aportación individual de cada uno
+  ────────────────────────────────────────
+  Opción: B · Un responsable por bloque
+  Cómo funciona: Cada persona redacta unos apartados y los otros dos los revisan
+  A favor: Rápida; la aportación individual queda clara
+  En contra: Riesgo de contradicciones entre apartados (C7, −0,5 por cada una) y
+
+  de que alguien no sepa defender lo que no escribió
+  ────────────────────────────────────────
+  Opción: C · Mixta, por fases
+  Cómo funciona: Las partes clave se hacen en común y el resto se reparte, con
+  puntos de control
+  A favor: Equilibra las ventajas de A y B
+  En contra: Exige reunirse en cada punto de control
+
+  Un ejemplo de cómo podría ser la opción C, solo para que veáis la forma:
+
+  1. Fase 1, por separado: cada uno lee F01–F06 y valora las H01–H13 por su
+     cuenta. Después lo ponéis en común y discutís las diferencias. Ese
+     desacuerdo es justo lo que hace bueno el C1, y además os sirve para la
+     «decisión que defendió o discutió» de la aportación individual.
+  2. Fase 2, juntos: cerráis 2.2, 2.3 y 3. Es la bisagra del plan.
+  3. Fase 3, repartida: cada persona se encarga de un bloque (4 y 5, 6 y 7, 8
+     a 10), con revisión cruzada.
+  4. Fase 4, juntos: apartados 11 y 1, y una lectura completa para buscar
+     contradicciones.
+
+  Condiciones del enunciado que deberíais tener en cuenta al decidir
+
+  - Cualquiera de los tres tiene que poder defender el plan completo, y puede
+    haber defensa oral (README.md:89
+    [ruta omitida: enunciado-A02]).
+    Repartir no exime a nadie de conocer el resto.
+  - La participación puede comprobarse en el historial (README.md:149
+    [ruta omitida: enunciado-A02]). Ayuda
+    que cada miembro haga sus propios commits en la rama del portavoz.
+  - La aportación individual la escribe cada persona sobre sí misma.
+  - El registro de IA es común, y cada uso indica quién lo hizo. Esta consulta
+    también hay que declararla.
+
+> <ide_selection>The user selected the lines 40 to 40 from
+  [ruta omitida: plan-grupo1]:
+  establecida, afirmada sin confirmar, cálculo o interpretación de un tercero,
+  contradicha por otra fuente, etc.
+
+  This may or may not be related to the current task.</ide_selection>
+
+> Y qué diferencia hay entre la tabla del apartado 2.1 con los hechos del csv?
+  No quiero que me des la respuesta, sino, el proceso de análisis, debería
+  poner el hecho completo? O debería colocar información? Luego, en valoración
+  no se supone que debe colocarse esto:
+
+  establecida, afirmada sin confirmar, cálculo o interpretación de un tercero,
+  contradicha por otra fuente, etc.
+
+● Lo que preguntas es método, no valoración, así que entra en aclarar conceptos,
+  que está permitido. Te explico el proceso sin aplicarlo a ninguna H concreta.
+
+  Diferencia entre hechos.csv y la tabla 2.1
+
+  ┌──────────┬─────────────────────────┬────────────────────────────────────┐
+  │          │       hechos.csv        │             Tabla 2.1              │
+  ├──────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Qué es   │ Material de partida en  │ Vuestro análisis de ese material   │
+  │          │ bruto                   │                                    │
+  ├──────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Quién lo │ El profesor             │ El grupo                           │
+  │  hace    │                         │                                    │
+  ├──────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Qué      │ Lo que alguien dice,    │ Lo que alguien dice, contrastado   │
+  │ recoge   │ resumido                │ con las fuentes y con las demás    │
+  │          │                         │ afirmaciones                       │
+  ├──────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Qué le   │ No dice si algo está    │ Responde a eso en las dos últimas  │
+  │ falta    │ confirmado ni cómo      │ columnas                           │
+  │          │ tratarlo                │                                    │
+  └──────────┴─────────────────────────┴────────────────────────────────────┘
+
+  Lo que añadís vosotros está sobre todo en las dos últimas columnas. Las tres
+  primeras son en buena parte reorganizar lo que ya está en el CSV.
+
+  Proceso de análisis, paso a paso
+
+  1. Leer primero las fuentes y después el CSV. El README del caso avisa de que
+  «las filas resumen; las fuentes dicen más, y a veces matizan»
+  (casos/hacienda/README.md:33 [ruta omitida: caso-hacienda]). Al leer cada F, marcad cosas como estas:
+  - palabras que suavizan o refuerzan («presunto», «según», «supuesta»,
+    «afirma»);
+  - de quién procede realmente cada dato: si el medio lo vio por sí mismo o lo
+    repite de otro;
+  - si la fila del CSV recoge bien lo que dice la fuente. Si no coinciden,
+    prevalece la fuente y hay que señalarlo.
+
+  2. Decidir qué es «una afirmación». Una fila del CSV puede contener varias
+  afirmaciones distintas dentro del mismo texto. Si cada una merece una
+  valoración distinta, os conviene separarlas en filas diferentes, por ejemplo
+  H0X-a y H0X-b, o indicarlo dentro de la celda. Qué filas separar lo decidís
+  vosotros.
+
+  3. Columna «Qué se afirma»: ni el hecho copiado entero ni información nueva.
+  - No hace falta copiar la fila completa. Basta con condensar el núcleo de lo
+    que se afirma, de forma neutral y sin adjetivos vuestros.
+  - Si al leer la fuente veis un matiz importante que el CSV no recoge, podéis
+    incluirlo citando la F correspondiente. La lectura de las fuentes forma
+    parte del material permitido (README.md:123
+    [ruta omitida: enunciado-A02]).
+  - No metáis nada que no esté en el material. Ni conocimiento previo, ni
+    contexto que «sabéis», ni nada que os haya dicho una IA. Eso se penaliza con
+    −2,5.
+  - (Duda razonable: cómo identificar algo que solo sale de una F y no tiene H.
+    Si no lo tenéis claro, preguntadlo por el canal privado.)
+
+  4. Columna «Quién lo afirma»: seguir la cadena hasta el origen. Para cada
+  afirmación preguntaos quién lo dijo primero y por quién os llega. Después
+  situad al origen en uno de los cinco papeles del enunciado: organización
+  afectada, quien se atribuye el incidente, empresa que lo difunde, medio u
+  organismo público.
+
+  5. Columna «¿Lo confirma alguien independiente?»: preguntas de control.
+  - ¿Hay otra fila u otra fuente que diga lo mismo?
+  - Esa otra fuente, ¿tiene un origen distinto o repite el mismo? Si lo repite,
+    no cuenta como confirmación.
+  - ¿Tiene esa fuente capacidad real de saberlo, o solo de transmitirlo?
+  - ¿Hay alguna fuente que diga lo contrario?
+
+  Responded con «Sí, por (H.., F..)», «No» o «No: repite el mismo origen (H..)».
+  Esta columna recoge un dato: si hay o no confirmación.
+
+  6. Columna «Valoración»: la conclusión que sacáis de lo anterior.
+
+  Sobre la columna «Valoración»
+
+  Sí, las categorías que has seleccionado son las que se esperan. Os doy cuatro
+  matices:
+
+  - Son orientativas, por eso acaban en «etc.». Si una afirmación no encaja en
+    ninguna, podéis usar otra categoría siempre que se entienda y podáis
+    defenderla.
+  - Una etiqueta sola se queda corta. Una etiqueta y una razón breve («afirmada
+    sin confirmar: solo la sostiene su autor») se defiende mucho mejor en el C1
+    y os deja escrito el 2.2 casi directamente.
+  - Columna 4 y columna 5 no son lo mismo. La 4 dice si hay confirmación. La 5
+    dice cómo vais a tratar la afirmación en el resto del plan. Pueden estar
+    relacionadas sin ser idénticas.
+  - Recordad la distinción del Tema 1: una afirmación puede estar establecida
+    como declaración («A dijo X») sin que lo esté su contenido («X ocurrió»).
+    Ese doble nivel suele ser lo que separa un notable de un excelente en el C1.
+
+  Qué valoración lleva cada H lo decidís vosotros. Esta consulta también va al
+  registro-ia.md [ruta omitida: registro-ia], con
+  el prompt tal cual.
+
+> <ide_opened_file>The user opened the file [ruta omitida: plan-grupo1] in
+  the IDE. This may or may not be related to the current
+  task.</ide_opened_file>
+
+> Otra duda, entonces en el apartado 2.1 se puede agregar información que estén
+  directamente en las fuentes aunque no estén en los hechos? Es decir, puedo
+  citar a la fuente X que, aunque no está explícitamente dicho en el csv que
+  dice algo y en la fuente sí, podría incluirlo?
+
+● Sí, el material lo permite, con condiciones. Esto es interpretar el enunciado,
+  no valorar el caso, así que te contesto. Te cito los textos en los que se
+  apoya para que lo comprobéis vosotros, y si tenéis dudas, la última palabra la
+  tiene el profesor por el canal privado.
+
+  En qué se apoya
+
+  Texto: Ficha de la plantilla (README.md:22
+  [ruta omitida: plan-grupo1])
+  Qué dice: El material de partida es H01–H13 y F01–F06. Las fuentes forman
+  parte
+  del material, no son algo externo.
+  ────────────────────────────────────────
+  Texto: Enunciado, límites (README.md:123
+  [ruta omitida: enunciado-A02])
+  Qué dice: Se usa la carpeta del caso «junto con la lectura de las fuentes que
+  enlaza fuentes.csv».
+  ────────────────────────────────────────
+  Texto: README del caso (hacienda/README.md:33
+  [ruta omitida: caso-hacienda])
+  Qué dice: «Las filas resumen; las fuentes dicen más, y a veces matizan.»
+  ────────────────────────────────────────
+  Texto: README de casos (casos/README.md:46-47
+  [ruta omitida: casos-A02])
+  Qué dice: Si una fila y su fuente no coinciden, prevalece la fuente y hay que
+  señalarlo. Se cita siempre con identificador, también con F.
+
+  Así que citar algo que está en una F aunque no aparezca en ninguna H entra
+  dentro del material.
+
+  Condiciones para no salirse
+
+  1. Solo las seis fuentes, F01–F06. Si una fuente cita o enlaza a otra (un
+     medio que cita a otro, por ejemplo), podéis recoger lo que la F dice que
+     dijo el otro, pero no abrir ese enlace. Eso sería salir del material y
+     contaría como búsqueda u obtención de información sobre el caso.
+  2. El identificador tiene que decir lo que le atribuís. Se penaliza que «el
+     identificador no dice lo que se le atribuye» (README.md:186
+     [ruta omitida: enunciado-A02]).
+     Citad la F exacta y respetad su redacción: si la fuente dice «presunto» o
+     «según», el matiz se mantiene.
+  3. Atribuid igual que con las H. «Quién lo afirma» puede ser el propio medio o
+     alguien a quien el medio cita. Distinguidlo.
+  4. Nada de conocimiento propio ni de IA. Lo que añadáis tiene que poder
+     señalarse en la F.
+  5. El identificador de la fila es decisión vuestra. La plantilla no fija cómo
+     nombrar una afirmación que solo sale de una F, por ejemplo F03 a secas o un
+     ID propio con la F entre paréntesis. Elegid un criterio, explicadlo en una
+     línea y aplicadlo igual en toda la tabla. Si queréis asegurarlo,
+     preguntadlo por el canal privado.
+
+  Dos cuidados más
+
+  - No subáis las noticias al repositorio (ni copias, ni PDF, ni capturas): eso
+    hace la actividad no evaluable. Se cita con el identificador y basta.
+  - No peguéis el texto de las fuentes en una IA para que os lo resuma o lo
+    analice. Además de que la IA no puede ser fuente, sería usarla para valorar
+    el caso.
+
+  Y la sección «Fuentes» del final de la plantilla tiene que recoger las F que
+  hayáis leído y citado, con su fecha de consulta. Esta consulta también va al
+  registro-ia.md [ruta omitida: registro-ia].
+
+> <ide_opened_file>The user opened the file [ruta omitida: plan-grupo1] in
+  the IDE. This may or may not be related to the current
+  task.</ide_opened_file>
+
+> O sea, podría reducir la cantidad de información diciendo, por ejemplo, el
+  actor x es el responsable de este ataque
+
+● No. Reducir información está bien, pero esa frase concreta cambia lo que se
+  afirma. Te explico por qué en términos de método, sin valorar ninguna
+  afirmación del caso.
+
+  Qué hace esa frase
+
+  «El actor X es el responsable de este ataque» convierte una declaración en un
+  hecho, y por el camino da por sentadas dos cosas:
+
+  ┌────────────────────┬────────────────────────────────────────────────────┐
+  │ Lo que la frase da │               Por qué es un problema               │
+  │     por sentado    │                                                    │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │                    │ Que ocurrió o no es algo que tenéis que valorar en │
+  │ Que hubo un ataque │  las columnas 4 y 5. No puede venir ya decidido en │
+  │                    │  la columna 2.                                     │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │ Que X es el        │ Es una atribución. Si lo pone la columna «Qué se   │
+  │ responsable        │ afirma», la está haciendo el grupo, no la fuente.  │
+  └────────────────────┴────────────────────────────────────────────────────┘
+
+  Además, el verbo «es» hace que la afirmación deje de parecer de alguien y pase
+  a parecer del grupo. Eso es justo lo que la rúbrica penaliza:
+  - C1 · Excelente: «No vincula hechos, actores ni incidentes sin base».
+  - Presentar como establecida una afirmación no confirmada, o vincular hechos,
+    actores o incidentes sin base: −0,5 por caso (README.md:200
+    [ruta omitida: enunciado-A02]).
+  - Atribuir responsabilidad o culpa más allá de las fuentes: −1,0
+    (README.md:201
+    [ruta omitida: enunciado-A02]).
+
+  Y conecta con el Tema 2: «en inteligencia, el error más grave no es no
+  encontrar al responsable, sino señalar a quien no lo es» (caso Boston).
+
+  Cómo se resume sin cambiar el sentido
+
+  Al condensar, se recorta el detalle, pero no el verbo de atribución ni los
+  matices. Un ejemplo genérico, inventado:
+
+  ┌────────────────────────────────┬────────────────────────────────────────┐
+  │     ❌ Resumen que altera      │            ✅ Resumen fiel             │
+  ├────────────────────────────────┼────────────────────────────────────────┤
+  │ «X atacó a la empresa Y»       │ «X afirma haber accedido a sistemas de │
+  │                                │  Y»                                    │
+  ├────────────────────────────────┼────────────────────────────────────────┤
+  │ «Se robaron datos de 1.000     │ «X afirma tener datos de unas 1.000    │
+  │ personas»                      │ personas»                              │
+  ├────────────────────────────────┼────────────────────────────────────────┤
+  │ «Los datos incluyen DNI y      │ «Según X, los datos incluyen DNI y     │
+  │ teléfonos»                     │ teléfonos»                             │
+  └────────────────────────────────┴────────────────────────────────────────┘
+
+  Una regla práctica para revisar cada celda de la columna 2:
+
+  1. ¿Conserva quién lo dice («X afirma», «según Y»)?
+  2. ¿Conserva los matices de la fuente («presunto», «supuesta», «unos»)?
+  3. Si alguien lee solo esta celda, ¿podría pensar que el grupo da el contenido
+     por cierto? Si la respuesta es sí, hay que reescribirla.
+
+  Una frase como «X es el responsable» solo podría aparecer, como mucho, en
+  vuestras conclusiones (2.2), y únicamente si las fuentes lo sostuvieran de
+  forma independiente. Si es así o no lo decidís vosotros al valorar. Yo no lo
+  voy a valorar.
+
+  Esta consulta también va al registro-ia.md
+  [ruta omitida: registro-ia].
+
+> para la 2.1 es valido decir "segun x se hizo y"
+
+● Sí, en general es válido. «Según X» conserva quién lo dice, que es lo
+  esencial. Aun así, revisad cuatro cosas en cada caso, porque esa fórmula puede
+  perder matices sin que os deis cuenta:
+
+  Revisa: El grado de certeza de la fuente
+  Por qué: Si la fuente usa condicional o «presunto», «según X se hizo Y» lo
+  sube
+  a indicativo
+  Ejemplo genérico: Fuente: «X sostiene que habría ocurrido Y» → ❌ «Según X,
+  ocurrió Y» · ✅ «Según X, habría ocurrido Y»
+  ────────────────────────────────────────
+  Revisa: El tipo de verbo
+  Por qué: Afirmar, confirmar, sospechar o investigar no son lo mismo, y «según»
+
+  lo iguala todo
+  Ejemplo genérico: «X investiga si ocurrió Y» no equivale a «Según X, ocurrió
+  Y»
+  ────────────────────────────────────────
+  Revisa: La cadena de transmisión
+  Por qué: Si X repite a otro, el origen es ese otro
+  Ejemplo genérico: ✅ «Según A, que cita a B, B afirma Y»
+  ────────────────────────────────────────
+  Revisa: El sujeto de «se hizo»
+  Por qué: La forma impersonal está bien si la fuente es impersonal, pero no
+  añadáis un autor que la fuente no nombra, ni quitéis uno que sí nombra
+  Ejemplo genérico: Fuente: «X afirma haber hecho Y» → ✅ «X afirma haber hecho
+  Y» (que el autor sea X lo dice X)
+
+  Una regla rápida: el verbo y el modo verbal de vuestra celda no deben expresar
+  más certeza que la fuente. Si dudáis, copiad el verbo exacto de la fuente.
+
+  Esto sigue siendo método. Cómo redactáis cada fila y qué valoración le dais lo
+  decidís vosotros. Esta consulta también va al registro-ia.md
+  [ruta omitida: registro-ia].
+
+> <ide_selection>The user selected the lines 38 to 38 from
+  [ruta omitida: plan-grupo1]:
+  el
+
+  This may or may not be related to the current task.</ide_selection>
+
+> vale poner el medio, es decir, la revista o la marca como sujeto X?
+
+● Sí, siempre que el medio sea quien de verdad hace la afirmación. La clave está
+  en distinguir si el medio origina lo que dice o solo lo transmite:
+
+  ┌────────────────────────────────────┬──────────────┬─────────────────────┐
+  │                Caso                │ Quién es «X» │  Ejemplo genérico   │
+  ├────────────────────────────────────┼──────────────┼─────────────────────┤
+  │ El medio afirma algo por sí mismo: │              │ «Según la revista   │
+  │  lo que ha observado, su contexto, │ El medio     │ R, la cuenta se     │
+  │  sus recomendaciones o sus         │              │ creó hace un mes»   │
+  │ interpretaciones                   │              │                     │
+  ├────────────────────────────────────┼──────────────┼─────────────────────┤
+  │ El medio reproduce lo que dice     │ El origen, a │ «Según la revista   │
+  │ otro                               │  través del  │ R, la empresa E     │
+  │                                    │ medio        │ afirma Y»           │
+  ├────────────────────────────────────┼──────────────┼─────────────────────┤
+  │ El medio cita a otro medio         │ La cadena    │ «Según R, que cita  │
+  │                                    │ completa     │ al diario D, …»     │
+  ├────────────────────────────────────┼──────────────┼─────────────────────┤
+  │                                    │ Esas         │ «Según R, fuentes   │
+  │ El medio cita «fuentes» sin nombre │ fuentes, a   │ de la organización  │
+  │                                    │ través del   │ O indican Y»        │
+  │                                    │ medio        │                     │
+  └────────────────────────────────────┴──────────────┴─────────────────────┘
+
+  ¿Por qué importa? Porque el enunciado pide distinguir cinco papeles
+  (organización afectada, quien se atribuye el incidente, empresas que lo
+  difunden, medios y organismos públicos). Si ponéis el medio como sujeto de
+  algo que en realidad dijo otro, perdéis ese papel y la columna «¿Lo confirma
+  alguien independiente?» queda mal planteada. Varias revistas no son varias
+  confirmaciones si todas repiten a un mismo origen.
+
+  Sobre «la marca»: si te refieres a una empresa (no a un medio), es otro de los
+  cinco papeles. Una empresa que detecta y difunde algo no es lo mismo que un
+  medio que lo publica, así que nombradla por su papel.
+
+  Para revisarlo, preguntaos en cada fila: ¿este medio lo sabe por sí mismo o lo
+  repite? Si lo repite, aparecen los dos. La columna «Quién lo afirma» de
+  hechos.csv ya sigue este formato («X, según Y»), y os puede servir de
+  referencia.
+
+  Cómo queda cada fila lo decidís vosotros. Esta consulta también va al
+  registro-ia.md [ruta omitida: registro-ia].
+
+> <ide_opened_file>The user opened the file [ruta omitida: plan-grupo1] in
+  the IDE. This may or may not be related to the current
+  task.</ide_opened_file>
+
+> Sé que no puedes ayudarme del todo como tal, pero si me puedes dar alguna
+  referencia de la cantidad de afirmaciones del caso deberia poner te lo
+  agradeceria (y aun mas si me das un step by step de como construirlas)
+
+● Sobre la cantidad, no hay un número fijo y no os voy a dar una cifra objetivo.
+  Decidir qué afirmaciones son relevantes forma parte de valorar el caso, y eso
+  os toca a vosotros. Lo que sí puedo daros son los datos objetivos del
+  material y el método.
+
+  Referencia de cantidad
+
+  - Punto de partida: las 13 filas de hechos.csv (H01–H13). La plantilla pide
+    «todas las afirmaciones relevantes», así que lo normal es que todas
+    aparezcan.
+  - El número puede subir si separáis una H que contiene varias afirmaciones, o
+    si añadís afirmaciones que solo están en las F.
+  - Puede bajar si decidís que alguna H no es relevante. Si lo hacéis,
+    justificadlo en una línea, porque la rúbrica valora la precisión.
+  - La cantidad no es un objetivo: es el resultado del proceso. Una tabla más
+    larga no es mejor. Es mejor si cada fila tiene una sola afirmación bien
+    atribuida y valorada.
+
+  Paso a paso para construir las filas
+
+  Fase A · Preparación
+  1. Leed F01–F06 completas, cada uno por su cuenta. No uséis IA para
+     resumirlas.
+  2. Mientras leéis, subrayad en cada fuente: quién dice cada cosa, los verbos
+     de atribución («afirma», «según», «descarta», «investiga») y los matices
+     («presunto», «supuesta», «unos»).
+
+  Fase B · Inventario
+  3. Haced una lista con las 13 H en orden.
+  4. En cada H, preguntaos si contiene una o varias afirmaciones. Pista de
+  método: si dentro de la fila hay datos que podrían tener valoraciones
+  distintas, o que dicen personas distintas, son afirmaciones distintas.
+  5. Comparad cada H con su F. ¿Coinciden? ¿La F añade algún matiz importante?
+  Si no coinciden, prevalece la F y hay que señalarlo.
+  6. Repasad cada F buscando afirmaciones relevantes que no estén en ninguna H y
+  anotadlas con su F.
+  7. Elegid un criterio de identificadores para las filas separadas o añadidas y
+  aplicadlo igual en toda la tabla.
+
+  Fase C · Rellenar las columnas, fila a fila
+  8. Qué se afirma: el núcleo condensado, con el verbo de atribución y los
+  matices de la fuente, sin más certeza de la que tiene la fuente.
+  9. Quién lo afirma: seguid la cadena hasta el origen («A, según B») e
+  identificad su papel entre los cinco.
+  10. ¿Lo confirma alguien independiente?: buscad otra fila que diga lo mismo,
+  comprobad si tiene un origen distinto y si puede saberlo, y anotad también las
+  que lo contradicen.
+  11. Valoración: la categoría y una razón breve.
+
+  Fase D · Revisión
+  12. Leed solo la columna 2. ¿Alguna celda parece una afirmación del propio
+  grupo? Si es así, reescribidla.
+  13. Comprobad que cada ID dice exactamente lo que le atribuís.
+  14. Poned en común las valoraciones de los tres. Donde no coincidáis,
+  discutidlo y decidid. Ese desacuerdo os sirve también para la aportación
+  individual.
+  15. Comprobad que de la tabla salen de forma natural el 2.2 (lo valorado como
+  establecido) y el 2.3 (lo que queda abierto).
+
+  Qué filas separáis, cuáles añadís y cómo valoráis cada una lo decidís
+  vosotros. Esta consulta también va al registro-ia.md
+  [ruta omitida: registro-ia], con el prompt tal
+  cual.
+
+> Entonces si tengo que buscar directamente de las fuentes, para que me
+  serviria la tabla de hechos?
+
+● Las dos cosas se complementan, no se sustituyen. Una aclaración antes: no
+  tenéis que «buscar» nada. Solo hay que leer las seis F ya enlazadas, porque
+  cualquier búsqueda está prohibida. Dicho esto, la tabla de hechos os sirve
+  para varias cosas:
+
+  ┌───────────────────┬─────────────────────────────────────────────────────┐
+  │  Para qué sirve   │                   Por qué importa                   │
+  │    hechos.csv     │                                                     │
+  ├───────────────────┼─────────────────────────────────────────────────────┤
+  │ Índice y          │ Os da las afirmaciones principales ya separadas y   │
+  │ esqueleto         │ ordenadas por fecha. Es la base de la tabla 2.1, no │
+  │                   │  tenéis que empezar de cero.                        │
+  ├───────────────────┼─────────────────────────────────────────────────────┤
+  │ Identificadores   │ H01–H13 son los ID con los que se cita y con los    │
+  │ comunes           │ que el profesor corrige. Sin ellos, cada grupo      │
+  │                   │ citaría a su manera.                                │
+  ├───────────────────┼─────────────────────────────────────────────────────┤
+  │ Atribución ya     │ La columna quien_lo_afirma ya indica la cadena («X, │
+  │ hecha             │  según Y»). Os sirve de modelo y de punto de        │
+  │                   │ partida para vuestra columna «Quién lo afirma».     │
+  ├───────────────────┼─────────────────────────────────────────────────────┤
+  │ Enlace a la       │ fuente_ref os dice en qué F comprobar cada fila,    │
+  │ fuente            │ así sabéis dónde leer.                              │
+  ├───────────────────┼─────────────────────────────────────────────────────┤
+  │                   │ Está escrita «sin valoraciones añadidas». Es un     │
+  │ Redacción neutral │ buen modelo de cómo condensar sin alterar el        │
+  │                   │ sentido.                                            │
+  ├───────────────────┼─────────────────────────────────────────────────────┤
+  │                   │ Os indica qué afirmaciones considera relevantes     │
+  │ Cobertura mínima  │ quien preparó el caso, aunque no impide añadir      │
+  │                   │ otras.                                              │
+  └───────────────────┴─────────────────────────────────────────────────────┘
+
+  ¿Y para qué leer entonces las fuentes? Porque el CSV resume y las F matizan:
+  - para comprobar que cada fila dice lo mismo que su fuente (y si no, prevalece
+    la F);
+  - para recuperar matices que el resumen pierde: condicionales, «presunto», el
+    contexto;
+  - para detectar afirmaciones relevantes que no están en el CSV.
+
+  En resumen: el CSV es el mapa y las fuentes son el terreno. Empezáis por el
+  mapa, comprobáis cada punto en el terreno y anotáis lo que el mapa no recoge.
+
+  Esta consulta también va al registro-ia.md
+  [ruta omitida: registro-ia].
+
+> <ide_opened_file>The user opened the file
+  [ruta omitida: enunciado-A02] in the IDE. This may or may not
+  be related to the current task.</ide_opened_file>
+
+> Revisa la ortografía de la sección 2.1 para ver si está correcto todo.
+  Recuerda siempre seguir las limitaciones de
+  [ruta omitida: enunciado-A02]
+  ⎿  Read [ruta omitida: enunciado-A02] (203
+     lines)
+  ⎿  1 skill available
+
+  Read 1 file (ctrl+o to expand)
+
+● Revisión de la tabla 2.1 (README.md:36-63
+  [ruta omitida: plan-grupo1]). Me he limitado
+  a ortografía, puntuación y tipografía: no he revisado ni opino sobre el
+  contenido, la atribución ni las valoraciones, porque eso no lo permite el
+  nivel C. Tampoco he cambiado nada en el archivo; los cambios los aplicáis
+  vosotros.
+
+  La ortografía está muy limpia: no hay faltas de tildes ni errores de escritura
+  en el texto que habéis redactado. Solo veo detalles menores.
+
+  Correcciones
+
+  Línea: 42 [ruta omitida: plan-grupo1]
+  Texto actual: Ultimo Recaudado y Recaudo Total
+  Observación: Si copiáis literalmente los nombres de campo de la captura, dejad
+
+  «Ultimo» sin tilde, pero marcadlo como cita, entre comillas («Ultimo
+  Recaudado») o en código, para que no parezca una falta. Si no es cita
+  literal, se escribe «Último».
+  ────────────────────────────────────────
+  Línea: 44 [ruta omitida: plan-grupo1]
+  Texto actual: muestra Joined: Jan 2026
+  Observación: Es texto literal en inglés: ponedlo entre comillas o en código
+  («Joined: Jan 2026»).
+  ────────────────────────────────────────
+  Línea: 62 [ruta omitida: plan-grupo1]
+  Texto actual: Lo de práctica habitual es…
+  Observación: Cuando se cita una expresión literal, va entre comillas: «Lo de
+  «práctica habitual» es…».
+  ────────────────────────────────────────
+  Línea: 40 [ruta omitida: plan-grupo1]
+  Texto actual: H02 - H14
+  Observación: Con guion, puede leerse como un rango (de H02 a H14). Si os
+  referís a las dos filas, es más claro «H02 y H14» o «H02, H14».
+
+  Puntuación y gramática (opcionales)
+
+  Línea: 43 [ruta omitida: plan-grupo1]
+  Texto actual: No se sabe qué contenía la muestra y si era auténtica
+  Sugerencia: Tras una negación, lo normal es «ni si era auténtica».
+  ────────────────────────────────────────
+  Línea: 50 [ruta omitida: plan-grupo1]
+  Texto actual: …de los distintos departamentos y que seguirán monitorizando
+  Sugerencia: Es una frase muy larga. Una coma antes de «y que» facilita la
+  lectura: «…departamentos, y que seguirán…».
+
+  Formato de la plantilla (no es ortografía, pero cuesta puntos)
+
+  - Línea 65 [ruta omitida: plan-grupo1]: el bloque
+    «Qué debe contener» del 2.1 sigue en el archivo. Hay que quitarlo, porque
+    dejar bloques sin sustituir se penaliza con −2,5 (README.md:185
+    [ruta omitida: enunciado-A02]).
+
+  Además, según el enunciado la entrega era el lunes 12 de octubre antes de las
+  12:15, y hoy es 14. Si todavía no la habéis entregado, os conviene comentarlo
+  por el canal privado.
+
+  Si queréis, cuando terminéis el 2.2 os reviso también su ortografía, solo la
+  forma. Y esta revisión va al registro-ia.md
+  [ruta omitida: registro-ia] como uso para
+  «revisar la ortografía» del apartado 2.1.
+> <ide_opened_file>The user opened the file
+  [ruta omitida: registro-ia] in the IDE. This may or may not be
+  related to the current task.</ide_opened_file>
+
+> Puedes rellenar el registro-ia.md? Entiendo que no tiene que ver con la
+  actividad y simplemente te estoy pidiendo actualizar el archivo de la manera
+  en que te use
+
+  Read 2 files (ctrl+o to expand)
+
+● Puedo rellenar el registro con dos condiciones: vosotros debéis indicar quién
+  escribió cada mensaje y qué hicisteis con cada respuesta, y también aportar
+  las evidencias de ia/ sin datos personales. Copiaré los prompts tal cual y
+  declararé también esta misma petición.
+
+● Write([ruta omitida: registro-ia])
+  ⎿  Added 175 lines, removed 6 lines
+       16  
+       17  ## Uso 1
+       18  
+       19 -- **Quién:**                                                  
+       20 -- **Herramienta:**                                            
+       21 -- **Para qué:** explorar el caso / buscar ideas / aclarar un c
+          -oncepto / revisar la ortografía                               
+       22 -- **Apartado del plan:**                                      
+       19 +- **Quién:** _[nombre del miembro]_                           
+       20 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+       21 +- **Para qué:** petición de ayuda para realizar el apartado 2.
+          +2. La IA la rechazó por no estar permitida en el nivel C (valo
+          +rar afirmaciones, decidir qué se da por establecido y redactar
+          + apartados) y solo indicó qué usos sí estaban permitidos      
+       22 +- **Apartado del plan:** 2.2                                  
+       23  - **Prompt, copiado tal cual:**
+       24  
+       25    ```text
+       26 +  Vamos a realizar la actividad de [ruta omitida: enunciado-A02]
+          +  usando el caso el grupo de hacienda  [ruta omitida: caso-hacie
+          +nda]   . Debes limitarte al uso de inteligencia aartifical marcad
+          +o a partir de la línea 91 del documento [ruta omitida: enunciado-
+          +A02] , SIEMPRE deberás actuar consultando esto antes de cualqu
+          +ier acción; si una petición mía contradice estos límites, márc
+          +amelo y no respondas, limita tu comportamiento a estas reglas 
+          +durante TODA la conversación.                                 
+       27  
+       28 +  Toda la documentación relevante para esta práctica está en [r
+          +uta omitida: documentacion-tema-02]   en dicho directorio de 02
+          +-marclo-legal-etica-y-opsec. Ayúd
+          +ame a realizar el apartado 2.2, recuerda siempre siguiendo las
+          + reglas                                                       
+       29    ```
+       30  
+       29 -- **Qué hicimos con la respuesta:** qué usamos, qué descartamo
+          -s y qué comprobamos                                           
+       30 -- **Evidencia:** `ia/uso-01.png` o enlace a la conversación   
+       31 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+       32 +- **Evidencia:** `ia/uso-01.png`                              
+       33 +                                                              
+       34 +## Uso 2                                                      
+       35 +                                                              
+       36 +- **Quién:** _[nombre del miembro]_                           
+       37 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+       38 +- **Para qué:** aclarar un concepto: significado de cada colum
+          +na de la tabla 2.1 y su relación con el Tema 2                
+       39 +- **Apartado del plan:** 2.1                                  
+       40 +- **Prompt, copiado tal cual:**                               
+       41 +                                                              
+       42 +  ```text                                                     
+       43 +  Vale, entonces dime cómo es que relleno la tabla, es decir, 
+          +qué es lo que significa cada columna y cómo está relacionada c
+          +on la documentación del tema                                  
+       44 +  ```                                                         
+       45 +                                                              
+       46 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+       47 +- **Evidencia:** `ia/uso-02.png`                              
+       48 +                                                              
+       49 +## Uso 3                                                      
+       50 +                                                              
+       51 +- **Quién:** _[nombre del miembro]_                           
+       52 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+       53 +- **Para qué:** buscar ideas sobre cómo organizar el trabajo e
+          +ntre tres personas. La IA propuso opciones sin elegir ninguna;
+          + la decisión es del grupo                                     
+       54 +- **Apartado del plan:** Equipo · Organización del trabajo    
+       55 +- **Prompt, copiado tal cual:**                               
+       56 +                                                              
+       57 +  ```text                                                     
+       58 +  Cómo es que podríamos distribuirnos el trabajo entre tres pe
+          +rsonas, deberíamos seguir el hilo? Deberíamos trabajar en lo m
+          +ismo a la vez? Veo que la manera de realizar este ejercicio de
+          +pende del apartado anterior                                   
+       59 +  ```                                                         
+       60 +                                                              
+       61 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+       62 +- **Evidencia:** `ia/uso-03.png`                              
+       63 +                                                              
+       64 +## Uso 4                                                      
+       65 +                                                              
+       66 +- **Quién:** _[nombre del miembro]_                           
+       67 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+       68 +- **Para qué:** aclarar un concepto: diferencia entre `hechos.
+          +csv` y la tabla 2.1, proceso de análisis y uso de la columna «
+          +Valoración»                                                   
+       69 +- **Apartado del plan:** 2.1                                  
+       70 +- **Prompt, copiado tal cual:**                               
+       71 +                                                              
+       72 +  ```text                                                     
+       73 +  Y qué diferencia hay entre la tabla del apartado 2.1 con los
+          + hechos del csv? No quiero que me des la respuesta, sino, el p
+          +roceso de análisis, debería poner el hecho completo? O debería
+          + colocar información? Luego, en valoración no se supone que de
+          +be colocarse esto:                                            
+       74 +                                                              
+       75 +  establecida, afirmada sin confirmar, cálculo o interpretació
+          +n de un tercero, contradicha por otra fuente, etc.            
+       76 +  ```                                                         
+       77 +                                                              
+       78 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+       79 +- **Evidencia:** `ia/uso-04.png`                              
+       80 +                                                              
+       81 +## Uso 5                                                      
+       82 +                                                              
+       83 +- **Quién:** _[nombre del miembro]_                           
+       84 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+       85 +- **Para qué:** aclarar un concepto: si pueden incluirse en la
+          + tabla 2.1 afirmaciones que están en las fuentes F01–F06 pero 
+          +no en `hechos.csv`, según el enunciado                        
+       86 +- **Apartado del plan:** 2.1                                  
+       87 +- **Prompt, copiado tal cual:**                               
+       88 +                                                              
+       89 +  ```text                                                     
+       90 +  Otra duda, entonces en el apartado 2.1 se puede agregar info
+          +rmación que estén directamente en las fuentes aunque no estén 
+          +en los hechos? Es decir, puedo citar a la fuente X que, aunque
+          + no está explícitamente dicho en el csv que dice algo y en la 
+          +fuente sí, podría incluirlo?                                  
+       91 +  ```                                                         
+       92 +                                                              
+       93 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+       94 +- **Evidencia:** `ia/uso-05.png`                              
+       95 +                                                              
+       96 +## Uso 6                                                      
+       97 +                                                              
+       98 +- **Quién:** _[nombre del miembro]_                           
+       99 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+      100 +- **Para qué:** aclarar un concepto: cómo condensar una afirma
+          +ción sin alterar su atribución (con ejemplos genéricos, no del
+          + caso)                                                        
+      101 +- **Apartado del plan:** 2.1                                  
+      102 +- **Prompt, copiado tal cual:**                               
+      103 +                                                              
+      104 +  ```text                                                     
+      105 +  O sea, podría reducir la cantidad de información diciendo, p
+          +or ejemplo, el actor x es el responsable de este ataque       
+      106 +  ```                                                         
+      107 +                                                              
+      108 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+      109 +- **Evidencia:** `ia/uso-06.png`                              
+      110 +                                                              
+      111 +## Uso 7                                                      
+      112 +                                                              
+      113 +- **Quién:** _[nombre del miembro]_                           
+      114 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+      115 +- **Para qué:** aclarar un concepto: validez de la fórmula «se
+          +gún X, se hizo Y» en la tabla 2.1                             
+      116 +- **Apartado del plan:** 2.1                                  
+      117 +- **Prompt, copiado tal cual:**                               
+      118 +                                                              
+      119 +  ```text                                                     
+      120 +  para la 2.1 es valido decir "segun x se hizo y"             
+      121 +  ```                                                         
+      122 +                                                              
+      123 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+      124 +- **Evidencia:** `ia/uso-07.png`                              
+      125 +                                                              
+      126 +## Uso 8                                                      
+      127 +                                                              
+      128 +- **Quién:** _[nombre del miembro]_                           
+      129 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+      130 +- **Para qué:** aclarar un concepto: cuándo un medio es quien 
+          +hace la afirmación y cuándo solo la transmite                 
+      131 +- **Apartado del plan:** 2.1                                  
+      132 +- **Prompt, copiado tal cual:**                               
+      133 +                                                              
+      134 +  ```text                                                     
+      135 +  vale poner el medio, es decir, la revista o la marca como su
+          +jeto X?                                                       
+      136 +  ```                                                         
+      137 +                                                              
+      138 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+      139 +- **Evidencia:** `ia/uso-08.png`                              
+      140 +                                                              
+      141 +## Uso 9                                                      
+      142 +                                                              
+      143 +- **Quién:** _[nombre del miembro]_                           
+      144 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+      145 +- **Para qué:** aclarar un concepto: método para construir las
+          + filas de la tabla 2.1. La IA no dio una cifra objetivo de afi
+          +rmaciones porque decidir cuáles son relevantes corresponde al 
+          +grupo                                                         
+      146 +- **Apartado del plan:** 2.1                                  
+      147 +- **Prompt, copiado tal cual:**                               
+      148 +                                                              
+      149 +  ```text                                                     
+      150 +  Sé que no puedes ayudarme del todo como tal, pero si me pued
+          +es dar alguna referencia de la cantidad de afirmaciones del ca
+          +so deberia poner te lo agradeceria (y aun mas si me das un ste
+          +p by step de como construirlas)                               
+      151 +  ```                                                         
+      152 +                                                              
+      153 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+      154 +- **Evidencia:** `ia/uso-09.png`                              
+      155 +                                                              
+      156 +## Uso 10                                                     
+      157 +                                                              
+      158 +- **Quién:** _[nombre del miembro]_                           
+      159 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+      160 +- **Para qué:** aclarar un concepto: para qué sirve `hechos.cs
+          +v` frente a la lectura de las fuentes                         
+      161 +- **Apartado del plan:** 2.1                                  
+      162 +- **Prompt, copiado tal cual:**                               
+      163 +                                                              
+      164 +  ```text                                                     
+      165 +  Entonces si tengo que buscar directamente de las fuentes, pa
+          +ra que me serviria la tabla de hechos?                        
+      166 +  ```                                                         
+      167 +                                                              
+      168 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+      169 +- **Evidencia:** `ia/uso-10.png`                              
+      170 +                                                              
+      171 +## Uso 11                                                     
+      172 +                                                              
+      173 +- **Quién:** _[nombre del miembro]_                           
+      174 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+      175 +- **Para qué:** revisar la ortografía de la tabla 2.1 ya redac
+          +tada por el grupo (solo ortografía, puntuación y tipografía, s
+          +in revisar el contenido ni las valoraciones)                  
+      176 +- **Apartado del plan:** 2.1                                  
+      177 +- **Prompt, copiado tal cual:**                               
+      178 +                                                              
+      179 +  ```text                                                     
+      180 +  Revisa la ortografía de la sección 2.1 para ver si está corr
+          +ecto todo. Recuerda siempre seguir las limitaciones de  [ruta
+          +omitida: enunciado-A02]
+      181 +  ```                                                         
+      182 +                                                              
+      183 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+      184 +- **Evidencia:** `ia/uso-11.png`                              
+      185 +                                                              
+      186 +## Uso 12                                                     
+      187 +                                                              
+      188 +- **Quién:** _[nombre del miembro]_                           
+      189 +- **Herramienta:** Claude Code (extensión de VS Code), modelo 
+          +Claude Opus 5.5                                               
+      190 +- **Para qué:** rellenar este registro con los usos anteriores
+          + (prompts copiados tal cual). Los campos «Quién» y «Qué hicimo
+          +s con la respuesta» los completa el grupo                     
+      191 +- **Apartado del plan:** Registro de IA                       
+      192 +- **Prompt, copiado tal cual:**                               
+      193 +                                                              
+      194 +  ```text                                                     
+      195 +  Puedes rellenar el registro-ia.md? Entiendo que no tiene que
+          + ver con la actividad y simplemente te estoy pidiendo actualiz
+          +ar el archivo de la manera en que te use                      
+      196 +  ```                                                         
+      197 +                                                              
+      198 +- **Qué hicimos con la respuesta:** _[a completar por el grupo
+          +]_                                                            
+      199 +- **Evidencia:** `ia/uso-12.png`                              
+
+● He rellenado registro-ia.md
+  [ruta omitida: registro-ia] con 12 usos: tus 11
+  consultas anteriores y esta petición. Cada uso lleva la herramienta, la
+  finalidad, el apartado y el prompt copiado tal cual, con las erratas
+  originales incluidas, porque así lo exige el enunciado.
+
+  Lo que tenéis que completar vosotros
+
+  1. Quién: el nombre del miembro que hizo cada consulta. Yo no sé quién
+     escribió cada mensaje.
+  2. Qué hicimos con la respuesta: qué usasteis, qué descartasteis y qué
+     comprobasteis. Lo decidís vosotros, así que no lo he escrito.
+  3. Evidencias: he dejado los nombres ia/uso-01.png a ia/uso-12.png, pero los
+     archivos no existen todavía. Tenéis que exportar o capturar esta
+     conversación y guardarla con esos nombres, o pegar el enlace para
+     compartirla y cambiar las rutas. Sin evidencia de algún uso, se pierden 2,5
+     puntos.
+  4. El recuadro de instrucciones del principio, que hay que borrarlo antes de
+     entregar.
+
+  Antes de subirlo
+
+  - El prompt del uso 11 contiene una ruta local ([ruta omitida: ruta local]) con el
+    nombre de usuario de tu equipo. El repositorio es público, así que decidid
+    si eso os importa. El enunciado pide el prompt tal cual, de modo que si lo
+    cambiáis, lo más seguro es preguntar antes por el canal privado.
+  - Comprobad que las capturas no muestran datos personales, por ejemplo nombres
+    de cuentas o rutas.
+
+> Puedes omitir las rutas o simplemente hacer referencias en el registro ia?
+  esto porque de cierta manera estoy dando informacion acerca de la
+  distribucion de los directorios y de cierta manera tambien estan los usuarios
+  de este ordenador y eso es informacion sensible; solo referencia los nombres
+  de los archivos y a que estan dedicados (documentacion-tema-02) por ejemplo.
+
+  Luego, hay ciertos prompts que son solo consultas acerca del tema, entonces
+  no crees que tambien se podrian omitir? lo digo más que nada porque son como
+  parentesis intermedios para comprension de lo que dice el tema y no como tal
+  del ejercicio. Luego, revisa y dime qué debería incluir en las capturas
+
+● Antes de tocar el archivo he comprobado las dos peticiones con el enunciado.
+  La primera la hago con matices. La segunda no puedo hacerla.
+
+  1. Omitir las rutas: sí, pero marcándolo
+
+  El enunciado pide el prompt tal cual (README.md:106
+  [ruta omitida: enunciado-A02]), así que
+  cambiarlo en silencio podría parecer un registro alterado. Pero también exige
+  que no se publiquen datos personales y que las capturas no los muestren
+  (README.md:113-114
+  [ruta omitida: enunciado-A02]), y
+  el nombre de usuario de tu equipo lo es. La solución más defendible es
+  sustituir solo las rutas por una referencia visible entre corchetes y
+  explicarlo en una nota. Así el resto del prompt queda literal y nadie puede
+  pensar que lo habéis maquillado.
+
+● Update([ruta omitida: registro-ia])
+  ⎿  Added 2 lines, removed 2 lines
+      23  - **Prompt, copiado tal cual:**
+      24  
+      25    ```text
+      26 -  Vamos a realizar la actividad de [ruta omitida: enunciado-A02
+         -]  usando el caso el grupo de hacienda  [ruta omitida: caso-hac
+         -ienda]   . Debes limitarte al uso de inteligencia aartifical ma
+         -rcado a partir de la línea 91 del documento [ruta omitida: enun
+         -ciado-A02] ,
+         - SIEMPRE deberás actuar consultando esto antes de cualquier acc
+         -ión; si una petición mía contradice estos límites, márcamelo y 
+         -no respondas, limita tu comportamiento a estas reglas durante T
+         -ODA la conversación.                                           
+      26 +  Vamos a realizar la actividad de [ruta omitida: enunciado-A02
+         +]  usando el caso el grupo de hacienda  [ruta omitida: caso-hac
+         +ienda]   . Debes limitarte al uso de inteligencia aartifical ma
+         +rcado a partir de la línea 91 del documento [ruta omitida: enun
+         +ciado-A02] , SIEMPRE deberás actuar consultando esto antes de c
+         +ualquier acción; si una petición mía contradice estos límites, 
+         +márcamelo y no respondas, limita tu comportamiento a estas regl
+         +as durante TODA la conversación.                               
+      27  
+      28 -  Toda la documentación relevante para esta práctica está en [r
+         -uta omitida: documentacion-tema-02] 
+         -  en dicho directorio de 02-marclo-legal-etica-y-opsec. Ayúdame
+         - a realizar el apartado 2.2, recuerda siempre siguiendo las reg
+         -las                                                            
+      28 +  Toda la documentación relevante para esta práctica está en [r
+         +uta omitida: documentacion-tema-02]   en dicho directorio de 02
+         +-marclo-legal-etica-y-opsec. Ayúdame a realizar el apartado 2.2
+         +, recuerda siempre siguiendo las reglas                        
+      29    ```
+      30  
+      31  - **Qué hicimos con la respuesta:** _[a completar por el grupo]
+          _
+
+● Update([ruta omitida: registro-ia])
+  ⎿  Added 1 line, removed 1 line
+      177  - **Prompt, copiado tal cual:**
+      178  
+      179    ```text
+      180 -  Revisa la ortografía de la sección 2.1 para ver si está corr
+          -ecto todo. Recuerda siempre seguir las limitaciones de  [ruta
+          -omitida: enunciado-A02]
+      180 +  Revisa la ortografía de la sección 2.1 para ver si está corr
+          +ecto todo. Recuerda siempre seguir las limitaciones de  [ruta 
+          +omitida: enunciado-A02]                                       
+      181    ```
+      182  
+      183  - **Qué hicimos con la respuesta:** _[a completar por el grupo
+           ]_
+
+● Update([ruta omitida: registro-ia])
+  ⎿  Added 10 lines
+      14  >
+      15  > Borra este recuadro antes de entregar.
+      16  
+      17 +**Nota sobre los prompts.** Los prompts se copian tal cual, con
+         + una única excepción: las rutas de archivos locales se han sust
+         +ituido por `[ruta omitida: …]` para no publicar en un repositor
+         +io público el nombre de usuario del equipo ni la estructura de 
+         +directorios local. Las referencias corresponden a:             
+      18 +                                                               
+      19 +| Referencia | Archivo |                                       
+      20 +|---|---|                                                      
+      21 +| `enunciado-A02` | `README.md` del enunciado de la actividad A
+         +02 |                                                           
+      22 +| `caso-hacienda` | `README.md` del caso del grupo 1 (Ministeri
+         +o de Hacienda) |                                               
+      23 +| `documentacion-tema-02` | `README.md` del Tema 2 · Marco lega
+         +l, ética y OPSEC del analista |                                
+      24 +                                                               
+      25 +Por el mismo motivo, las rutas también aparecen ocultas en las 
+         +evidencias de `ia/`.                                           
+      26 +                                                               
+      27  ## Uso 1
+      28  
+      29  - **Quién:** _[nombre del miembro]_
+
+● He hecho tres cambios en registro-ia.md
+  [ruta omitida: registro-ia]:
+
+  - He sustituido las rutas de los usos 1 y 11 por referencias del tipo [ruta
+    omitida: enunciado-A02]. El resto de cada prompt sigue literal.
+  - He añadido al principio una nota que explica la excepción y una tabla que
+    dice a qué archivo corresponde cada referencia.
+  - He dejado tal cual el nombre de carpeta «02-marclo-legal-etica-y-opsec» del
+    uso 1. No es una ruta, sino texto que escribiste, y es el nombre del tema en
+    el repositorio público del curso.
+
+  Para estar tranquilos, conviene comentar este criterio por el canal privado.
+
+  2. Omitir las consultas sobre el tema: no puedo hacerlo
+
+  Esta petición contradice el enunciado, así que te lo marco y no la aplico:
+
+  - Hay que declarar cada uso, sin excepciones. El enunciado dice: «Cada vez que
+    alguien del grupo use IA, copia el bloque…». No distingue entre consultas
+    «del ejercicio» y consultas «del tema».
+  - «Aclarar conceptos del tema» es en sí un uso del nivel C. Aparece en la
+    tabla de usos permitidos y, precisamente por eso, hay que declararlo.
+  - La mayoría no eran paréntesis sobre teoría. Los usos 2 y 4 a 10 trataban de
+    cómo construir la tabla 2.1, y el 3, de cómo organizar el trabajo.
+  - Las consecuencias: un registro incompleto o que no corresponde a la entrega
+    se penaliza con −2,5 (README.md:188
+    [ruta omitida: enunciado-A02]), y uno
+    sin los prompts hace que la entrega no se califique (README.md:116
+    [ruta omitida: enunciado-A02]).
+
+  Declarar muchas consultas de concepto no os perjudica. Al contrario, demuestra
+  que la IA se usó solo para lo permitido.
+
+  3. Qué incluir en las capturas
+
+  Lo que debe verse en cada uso-NN:
+  - el prompt completo, que tiene que coincidir con el del registro salvo las
+    rutas;
+  - la respuesta completa de la IA. Si es larga, usad varias capturas
+    (uso-04a.png, uso-04b.png) o mejor una exportación en PDF;
+  - la herramienta: que se vea que es Claude Code;
+  - en el uso 1, que se vea que la IA rechazó la petición del 2.2. Es la prueba
+    más valiosa de que respetasteis el nivel C.
+
+  Lo que hay que tapar o recortar antes de guardar:
+  - las rutas de archivos: en los prompts y también en la interfaz (pestañas del
+    editor, barra de título, explorador de archivos);
+  - el nombre de usuario y la cuenta: perfil de VS Code, correo de la cuenta de
+    Claude, barra de estado;
+  - los enlaces a archivos dentro de las respuestas: muestran rutas relativas
+    del repositorio. No incluyen tu usuario, pero si tampoco queréis mostrar la
+    estructura de carpetas, tapadlos igual;
+  - las notificaciones y pestañas ajenas a la actividad que aparezcan en
+    pantalla.
+
+  Cómo hacerlo con menos riesgo:
+  - Recortad las capturas solo al panel de la conversación, sin el resto de la
+    ventana.
+  - Usad un rectángulo opaco para tapar, no un desenfoque, que a veces se puede
+    revertir.
+  - Antes de subir cada imagen, abridla y revisadla entera.
+
+  Como evidencia del uso 12, sirve una captura de esta respuesta.
+
+> puedo exportar esta conversación?
+
+● Sí, aunque no conviene subir la exportación tal cual.
+
+  Formas de exportarla
+
+  - Comando /export. En Claude Code, /export guarda la conversación en un
+    archivo de texto o la copia al portapapeles. Funciona seguro en la terminal;
+    en la extensión de VS Code no estoy seguro de que esté disponible, así que
+    pruébalo escribiéndolo en el chat. Si no aparece, abre la misma sesión desde
+    la terminal con claude --resume.
+  - Historial local. Claude Code guarda cada sesión como .jsonl en tu carpeta de
+    usuario, dentro de .claude/projects/. No uses ese archivo como evidencia:
+    además de los mensajes, incluye contexto interno de la sesión, como rutas
+    completas, los archivos que tenías abiertos y datos de tu cuenta.
+
+  Antes de guardarla en ia/
+
+  1. Revisa el texto exportado entero. Puede incluir rutas en tus prompts y en
+     los enlaces de mis respuestas, y quizá datos de la sesión.
+  2. Sustituye las rutas con el mismo criterio que en el registro ([ruta
+     omitida: enunciado-A02]), para que coincida con la nota que añadimos.
+  3. Comprueba que no aparezcan tu nombre de usuario, el correo de la cuenta ni
+     nombres de los miembros que no queráis publicar.
+  4. Guárdala con nombre de uso. Como es una sola conversación, lo más práctico
+     es un único archivo, por ejemplo ia/usos-01-12.pdf, y cambiar en el
+     registro cada «Evidencia» para que apunte a ese archivo, indicando el uso o
+     la página. Si preferís seguir el formato uso-NN al pie de la letra, podéis
+     dividirlo en un archivo por uso.
+
+  Si cambiáis las rutas de evidencia, dímelo y actualizo los doce campos
+  «Evidencia» del registro.
