@@ -31,6 +31,21 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 
 ## Uso 1
 
+- **Quién: Cayetano**
+- **Herramienta: Gemini (3.1PRO)**
+- **Para qué:** planificación del trabajo y revisar la ortografía
+- **Apartado del plan: 2.2, 4, 7, 8, 9**
+- **Prompt, copiado tal cual:**
+
+Adjunto chat
+
+- **Qué hicimos con la respuesta:**
+Para el plan lo tuve en cuenta pero no lo palsme con exactitud, me sirvio como guía para entender más rapido que había apartados que requerían de otros para responder. Para la ortografia y expresión copie tal cual lo que me daba revisando que estaba correcto lo que me había corregido. 
+- **Evidencia:** 
+[Chat](https://share.gemini.google/HN0lO20Ex38g)
+
+## Uso 2
+
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
 - **Para qué:** petición de ayuda para realizar el apartado 2.2. La IA la rechazó por no estar permitida en el nivel C (valorar afirmaciones, decidir qué se da por establecido y redactar apartados) y solo indicó qué usos sí estaban permitidos
@@ -46,7 +61,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Descartar la información que nos dio porque cumplia con las reglas establecidas del uso de la IA
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 1)
 
-## Uso 2
+## Uso 3
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -61,7 +76,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Analizar la respuesta del agente para proceder a avanzar con la tabla
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 2)
 
-## Uso 3
+## Uso 4
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -76,7 +91,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** No tenerla en cuenta y distribuirnos el trabajo para finalizar la actividad
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 3)
 
-## Uso 4
+## Uso 5
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -93,7 +108,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Analizar la respuesta y tomarla en cuenta para realizar el apartado
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 4)
 
-## Uso 5
+## Uso 6
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -108,7 +123,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Tomarlo en cuenta para agregar citas de hechos que no estaban en el .csv y entender el formato para agregarlo
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 5)
 
-## Uso 6
+## Uso 7
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -123,7 +138,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Analizar la respuesta para tomarla en cuenta para la redacción del apartado
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 6)
 
-## Uso 7
+## Uso 8
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -138,7 +153,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Analizar la respuesta para tomarla en cuenta para la redacción del apartado
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 7)
 
-## Uso 8
+## Uso 9
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -153,7 +168,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Analizar la respuesta para tomarla en cuenta para la redacción del apartado
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 8)
 
-## Uso 9
+## Uso 10
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -168,7 +183,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Complementar con una idea de cómo realizar la tabla paso a paso con referencia al tema
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 9)
 
-## Uso 10
+## Uso 11
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -183,7 +198,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Analizar la respuesta para tomarla en cuenta para la redacción del apartado
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 10)
 
-## Uso 11
+## Uso 12
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -198,7 +213,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Omitirla puesto que incluia revisiones menores no relevantes
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 11)
 
-## Uso 12
+## Uso 13
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -213,7 +228,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Aceptar la propuesta y dejar que rellene este registro
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 12)
 
-## Uso 13
+## Uso 14
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -230,7 +245,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Tomar en cuenta las limitaciones de uso de IA y tener presente la importancia de un registro completo de la conversación con el asistente, aun cuando entre medias se realizaron consultas breves
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 13)
 
-## Uso 14
+## Uso 15
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5
@@ -245,7 +260,7 @@ Por el mismo motivo, las rutas también aparecen sustituidas en `ia/usos-01-14.t
 - **Qué hicimos con la respuesta:** Exportar la conversación y colocarla en el registro
 - **Evidencia:** `ia/usos-01-14.txt` (exportación de la conversación, uso 14)
 
-## Uso 15
+## Uso 16
 
 - **Quién:** Eirik Rosete
 - **Herramienta:** Claude Code (extensión de VS Code), modelo Claude Opus 5.5

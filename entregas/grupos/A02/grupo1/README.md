@@ -160,7 +160,7 @@ Usando las fuentes, sabemos seguro que hay investigaciones en curso por parte de
 
 | Datos que podrían aparecer aunque no se buscasen | De quién | Cómo se minimizarían | Dónde se guardarían y quién accedería | Cuándo y cómo se borrarían |
 |---|---|---|---|---|
-| | | | | |
+|En un foro de la dark web, el usuario HaciendaSec publicó supuesta información delicada de Hacienda. Seguramente incluya datos personales de contribuyentes, tales como nombres completos, DNI/NIF, direcciones, teléfonos, correos electrónicos, cuentas bancarias (IBAN) e información fiscal (salarios, deudas).|Los afectados serían los contribuyentes (ciudadanos y empresas) en España, dada la jurisdicción de la entidad. |Como profesional, visualizaría la información en línea, realizaría ofuscación o pixelado inmediato de los datos personales y conservaría únicamente el hash del archivo.|Se guardarían en un contenedor local cifrado. Solo accederían los encargados del proyecto de investigación; de ser necesario, se restringiría el acceso a una única persona para evitar el uso indebido de la información.|Se destruirían mediante sobreescritura segura al finalizar el periodo de investigación y la entrega del trabajo, evaluando previamente si es estrictamente necesario conservar una copia cifrada por si se reabre el caso.|
 
 ## 8. Seguridad de la operación
 
@@ -168,45 +168,51 @@ Usando las fuentes, sabemos seguro que hay investigaciones en curso por parte de
 
 | Paso | En este caso |
 |---|---|
-| Información crítica | |
-| Amenazas | |
-| Vulnerabilidades | |
-| Riesgo | |
-| Contramedidas | |
+| Información crítica |Nuestra dirección IP real, nuestra identidad y el propio hecho de que estamos llevando a cabo una investigación.|
+| Amenazas |Los administradores del foro clandestino, el actor HaciendaSec o el malware presente en los sitios web visitados. |
+| Vulnerabilidades |Errores humanos (ej. inicios de sesión accidentales con cuentas personales) o el uso de un navegador desactualizado.|
+| Riesgo |Sufrir una intrusión (hackeo) y exponer nuestra información personal a los atacantes, dando lugar a posibles extorsiones o represalias. |
+| Contramedidas |Usar una máquina virtual desechable, enrutamiento de tráfico por la red Tor sobre una VPN y deshabilitar JavaScript en el navegador Tor.|
 
 ### 8.2 Identidad de investigación
 
-> **Qué debe contener:** con qué identidad se consultarían las fuentes, por qué es la adecuada para este caso y qué identidades se descartan.
+El analista utilizará una identidad ficticia (sockpuppet). Debe ser una cuenta creada expresamente para esta investigación, sin ninguna vinculación personal y de perfil bajo (estrictamente de solo lectura, sin escribir, preguntar ni comprar). Queda totalmente descartado el uso de nombres reales.
 
 ### 8.3 Riesgos para las personas y conflictos de intereses
 
-> **Qué debe contener:** riesgos para las personas afectadas por el incidente, para el equipo, incluido el riesgo psicológico, y cualquier conflicto de intereses de los miembros del grupo, con la medida que se aplicaría a cada uno.
+**Psicologico:**La dark web contiene material ilegal, violento o perturbador. Existe un riesgo real de exposición accidental a este tipo de contenidos durante la navegación.
+
+**Conflicto de Intereses:** Dado que la filtración afecta a 47,3 millones de contribuyentes en España, hay una altísima probabilidad de que el DNI propio o el de familiares directos esté en la muestra. La contramedida profesional sería la siguiente: si un analista identifica datos propios o de allegados, paralizará la visualización inmediatamente y notificará al portavoz del equipo para ser relevado de esa tarea, evitando así sesgos y conflictos emocionales.
 
 ## 9. Trazabilidad y custodia
 
-> **Qué debe contener:** qué se registraría y cuándo, cómo se conservarían las evidencias, cómo se demostraría que no se han alterado y quién las custodiaría.
+Ante un posible proceso judicial, es fundamental poder demostrar la procedencia exacta de la información obtenida (capturas de pantalla, archivos, documentos) mediante el uso de garantías criptográficas.
+
+**¿Que registramos?:** Se documenta un registro cronológico (timeline). Se anota la fecha, la hora (en formato UTC para evitar discrepancias por zonas horarias) y la URL exacta de cada paso. Las capturas de pantalla y los archivos originales se guardan de forma segura en un disco duro cifrado.
+
+**No alteracion:** A cada evidencia digital recolectada (capturas, textos, archivos descargados) se le calcula inmediatamente su huella criptográfica (hash SHA-256). Si alguien altera un solo píxel de la imagen en el futuro, el hash cambiará por completo. El registro de la investigación debe incluir siempre el nombre exacto de cada archivo y su hash correspondiente para asegurar la cadena de custodia.
 
 ## 10. Manejo y difusión
 
 | Producto | Destinatario | Canal | Etiqueta TLP | ¿Podría publicarse en este repositorio? ¿Por qué? |
 |---|---|---|---|---|
-| | | | | |
+|Plan de investigación estratégico. |Equipo docente de la asignatura. |Pull request en el repositorio de GitHub de la universidad. |TLP:CLEAR. |Sí. Al ser TLP:CLEAR, la información no reviste riesgo. No contiene datos personales, ni vulnerabilidades expuestas, ni evidencias del caso, únicamente la metodología de trabajo a seguir. |
+|Informe de resultados y evidencias (ej. confirmación de la veracidad de la muestra o hallazgo del origen de la filtración). |Ministerio de Hacienda y organismos competentes (CCN-CERT). |Comunicación cifrada (PGP) o plataformas seguras de reporte de incidentes. |TLP:AMBER (o TLP:RED para detalles muy sensibles). |No. Contendría datos sensibles, tácticas del atacante o posibles vulnerabilidades reales que pondrían en riesgo a la organización y a los ciudadanos si se hacen públicas. |
 
-> **Qué debe contener:** además de la tabla, si procedería compartir algo con algún organismo, con cuál y en qué condiciones.
+Si la investigación confirmara una filtración de datos de ciudadanos (H03) o el compromiso de infraestructuras vinculadas a la Administración, el equipo realizaría un reporte o divulgación responsable.
 
 ## 11. Alcance de la investigación
 
 | Campo | Definición |
 |---|---|
-| Objetivo | |
-| Finalidad | |
+| Objetivo |Verificar la existencia, origen y veracidad de la supuesta filtración de datos de 47,3 millones de ciudadanos atribuida a Hacienda, evaluando la credibilidad del actor 'HaciendaSec' mediante fuentes abiertas. |
+| Finalidad |Realizar una práctica académica universitaria (interés legítimo) y generar un reporte técnico sobre el incidente para que los organismos competentes puedan tomar medidas de protección. |
 | Fuentes permitidas | |
 | Técnicas permitidas | |
-| Exclusiones específicas | |
-| Canal de entrega del resultado | |
-| Vigencia | |
+| Exclusiones específicas |Se excluye cualquier interacción con el actor 'HaciendaSec', la compra o descarga masiva de datos personales, el escaneo activo de infraestructuras del Ministerio, y el contacto directo con posibles afectados |
+| Canal de entrega del resultado |Entrega del informe técnico mediante correo electrónico cifrado (PGP) o plataformas de reporte seguro a los organismos competentes, bajo protocolo TLP:AMBER |
+| Vigencia |Hasta la finalización de la evaluación de la práctica académica en el semestre en curso. |
 
-> **Qué debe contener:** el compromiso que asumiría el equipo. Debe corresponder exactamente al resto del plan.
 
 ---
 
