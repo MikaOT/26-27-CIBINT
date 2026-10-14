@@ -181,7 +181,14 @@
 
 ### Aportación individual
 
-> **Qué debe contener:** un apartado por miembro, escrito por la propia persona y con su nombre: qué ha hecho, qué decisión del grupo defendió o discutió y qué le resultó más difícil.
+#### Saúl de Cos Sánchez
+He hecho los apartados 2.3 y 3, intentando encontrar la informacion que falta y las necesidades de inteligencia. Una vez hecho esto, he formulado preguntas de investigación.
+
+**¿Qué decisiones del grupo defiendo?:**
+Defiendo la decisión de haber descartado cualquier acción que requiera interactuar con HaciendaSec o comprar datos robados, además de evitar comprobar vulnerabilidades internas de hacienda
+
+**¿Qué apartado me ha resultado más difícil?:**
+Definir las preguntas del apartado 3, traduciendo dudas generales del ataque en preguntas de investigación concretas y que se puedan realizar
 
 ## Uso de inteligencia artificial
 
