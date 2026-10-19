@@ -59,10 +59,13 @@ entregas/apellidoNombre/PF/PRESENTACION/
 ├── README.md
 ├── presentacion.pdf
 ├── presentacion-editable/
-└── registro-ia.md
+├── registro-ia.md
+└── ia/
 ```
 
-El `README.md` identifica al estudiante, el título del informe, la versión del informe final que se defiende y los archivos incluidos. El editable puede ser PPTX, ODP u otro formato que se pueda abrir y revisar; no entregues únicamente un enlace a una cuenta privada. El registro de IA recoge los apoyos permitidos durante la preparación o declara que no los hubo. Los análisis, el texto de las diapositivas y la explicación deben ser propios.
+El `README.md` identifica al estudiante, el título del informe, la versión del informe final que se defiende y los archivos incluidos. El editable puede ser PPTX, ODP u otro formato que se pueda abrir y revisar; no entregues únicamente un enlace a una cuenta privada. El registro de IA recoge todos los usos permitidos y sus prompts y respuestas completos, o declara que no los hubo. La carpeta `ia/` conserva las capturas o exportaciones completas y se incluye cuando se haya utilizado IA.
+
+Se aplican las mismas [condiciones de IA del proyecto](README.md#uso-de-inteligencia-artificial): únicamente síntesis de información ya encontrada, corrección ortográfica y consulta orientativa de legislación aplicable. No se permite utilizar IA para redactar las diapositivas, analizar el caso ni preparar las respuestas de la defensa. El incumplimiento supondrá **0 sobre 10 en el proyecto final**. Los análisis, el texto de las diapositivas y la explicación deben ser propios.
 
 Comprueba que los archivos se pueden abrir desde el pull request y lleva una copia local el día de la defensa. Para los casos personales autorizados, conserva esta estructura y entrega los archivos por el canal privado acordado, sin subirlos al fork público ni abrir un pull request público. Consulta el [procedimiento de entrega](02-proceso-y-entregas.md#procedimiento-de-entrega).
 

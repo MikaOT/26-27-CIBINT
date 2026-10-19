@@ -43,7 +43,9 @@ Aportación a la nota del proyecto final = nota del informe escrito × 0,70
 
 ## Incumplimientos y revisión
 
-La falta de un archivo o un apartado se refleja en los criterios que impide comprobar. No se añade por el mismo hecho una segunda penalización automática. Las entregas parciales sirven como evidencia de seguimiento; no suman notas independientes.
+La falta de un archivo o un apartado se refleja en los criterios que impide comprobar, salvo la condición específica sobre uso de IA y su registro indicada a continuación. No se añade por el mismo hecho una segunda penalización automática. Las entregas parciales sirven como evidencia de seguimiento; no suman notas independientes.
+
+El incumplimiento de las [condiciones de uso de IA](README.md#uso-de-inteligencia-artificial) supondrá **0 sobre 10 en el proyecto final**. Esto incluye los usos prohibidos o no declarados, la ocultación o manipulación del registro y la falta del registro obligatorio, de los prompts, de las respuestas o de las evidencias completas de los usos realizados. Esta condición se aplica al conjunto del proyecto, no solo al criterio I7.
 
 La fabricación de fuentes o evidencias, el plagio, la actuación fuera del alcance o la difusión de datos no autorizados se tramitan según las [normas de la asignatura](../NORMAS.md), el régimen de autoría y la normativa académica. No se consideran simples defectos de presentación. Si aparece una incidencia de seguridad, se detiene su difusión y se comunica por el [canal privado](../SECURITY.md).
 

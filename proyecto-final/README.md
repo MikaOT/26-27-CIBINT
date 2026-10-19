@@ -73,7 +73,51 @@ En las sesiones prácticas se trabajará con la última versión del informe, la
 
 La investigación, las valoraciones y las conclusiones deben ser de elaboración individual. Se permite consultar dudas de método con compañeros, pero no repartir el análisis ni compartir textos o resultados para presentarlos como trabajos individuales distintos. Si dos estudiantes eligen el mismo incidente, necesitarán preguntas y alcances diferenciados y aprobados.
 
-El régimen de esta actividad es **nivel C: IA de apoyo, con declaración obligatoria de su uso o de su ausencia**. Se permite aclarar conceptos, explorar ideas que después comprobarás, pedir explicaciones sobre una herramienta y revisar la ortografía de un texto que hayas escrito. No se permite delegar la investigación, la selección de evidencias, el análisis, las conclusiones, la redacción de apartados ni la elaboración de la presentación. Cada uso se registra con el prompt, la respuesta relevante y la decisión tomada en el [registro de IA](plantillas/registro-ia.md). Nunca se introducen datos personales o material no publicable en esos servicios.
+## Uso de inteligencia artificial
+
+El régimen del proyecto es **nivel C: IA de apoyo limitada a los usos indicados en este apartado**, con declaración obligatoria de su uso o de su ausencia. Estas condiciones se aplican a la propuesta, los avances, el informe final y la presentación, incluidas las funciones de IA integradas en buscadores, editores y otras herramientas.
+
+### Usos permitidos
+
+Se permite utilizar IA **únicamente** para estas tres tareas:
+
+| Tarea | Condiciones |
+|---|---|
+| Síntesis de información ya encontrada | Resumir fuentes previamente localizadas, leídas y seleccionadas por el estudiante. La síntesis debe contrastarse con los originales y utilizarse como material de apoyo; no puede incorporar información nueva ni sustituir el análisis o la redacción del trabajo |
+| Corrección ortográfica | Revisar la ortografía de un texto ya escrito por el estudiante, sin reescribirlo, ampliarlo, cambiar su contenido ni elaborar su argumentación |
+| Consulta orientativa de legislación aplicable | Consultar qué normativa podría ser pertinente mediante preguntas generales, sin facilitar datos del caso. Cada referencia deberá localizarse, leerse y comprobarse en una fuente oficial. La interpretación y la justificación de su aplicación al caso deben ser propias |
+
+La información obtenida mediante IA no se utiliza como fuente de un hecho o de una norma. El informe debe citar los documentos originales y, en materia de legislación, las fuentes oficiales consultadas. No se introducirán datos personales, credenciales ni material no publicable en estos servicios.
+
+### Usos prohibidos
+
+No se permite utilizar IA para:
+
+- buscar información sobre el caso, sus protagonistas o su contexto, o localizar y seleccionar sus fuentes; la única consulta autorizada es la orientación normativa general indicada en los usos permitidos;
+- formular las preguntas de investigación, diseñar el método o decidir el alcance del trabajo;
+- analizar datos, correlacionar evidencias, valorar fuentes, asignar niveles de confianza o tomar decisiones sobre el caso;
+- redactar la propuesta, los apartados del informe, las respuestas, las conclusiones o las recomendaciones;
+- generar o reescribir el texto de las diapositivas, preparar respuestas para la defensa o intervenir durante ella;
+- elaborar tablas, gráficos, código u otros materiales de la entrega mediante IA;
+- realizar cualquier otra tarea distinta de los tres usos expresamente permitidos.
+
+El texto de la entrega debe ser de elaboración propia. No se permite presentar una síntesis generada por IA como un apartado redactado por el estudiante, ni utilizar una petición de «corrección» para obtener una reescritura del contenido.
+
+### Registro obligatorio
+
+Se utilizará el [registro de IA](plantillas/registro-ia.md), adaptado del formato de A02 al proyecto individual. Debe conservarse un registro acumulado y entregarse una copia actualizada en cada hito, junto con las evidencias de uso.
+
+Por cada interacción se registrarán la fecha, la persona que la realiza, la herramienta y el modelo si consta, la finalidad permitida, el apartado relacionado, el **prompt completo**, la **respuesta completa**, las comprobaciones realizadas y lo que se aceptó, corrigió o descartó. También se registrarán los mensajes de seguimiento, los intentos repetidos y las respuestas que finalmente no se utilicen.
+
+Las capturas o exportaciones se conservarán en la carpeta `ia/`, numeradas de acuerdo con el registro, y deben permitir revisar la conversación completa. Los prompts se copiarán tal como se enviaron; los datos no publicables deben excluirse antes de utilizar la herramienta. El registro y sus evidencias seguirán el mismo canal de entrega que el proyecto, público o privado según la modalidad autorizada.
+
+Si no se ha utilizado IA, deberá constar una declaración expresa. Si no hay usos nuevos en una fase, se indicará y se conservará el registro de los usos anteriores.
+
+### Incumplimiento
+
+**El incumplimiento de estas condiciones supondrá una calificación de 0 sobre 10 en el proyecto final.** Esta consecuencia se aplica a los usos prohibidos, al uso no declarado, a la ocultación o manipulación del registro y a la falta del registro obligatorio, de los prompts, de las respuestas o de las evidencias completas de los usos realizados.
+
+Esta condición se aplica al conjunto del proyecto y no se limita al criterio de autoría de la rúbrica.
 
 ## Entrega y reserva del trabajo
 

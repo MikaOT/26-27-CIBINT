@@ -41,4 +41,6 @@ Aportación a la nota del proyecto final = nota de presentación y defensa × 0,
 
 Las condiciones de autoría, datos y actuación del proyecto se mantienen durante la presentación. Las incidencias se tramitan conforme a las [normas](../NORMAS.md) y a la normativa académica. Una ausencia justificada se comunica por los canales institucionales; no se resuelve sustituyendo la defensa por una entrega no acordada.
 
+El incumplimiento de las [condiciones de uso de IA](README.md#uso-de-inteligencia-artificial), incluidos los usos prohibidos o no declarados y la falta del registro obligatorio y sus evidencias completas, supondrá **0 sobre 10 en el proyecto final**, no solo una reducción en un criterio de esta rúbrica.
+
 [Volver al proyecto](README.md) · [Preparar la defensa](04-presentacion.md)

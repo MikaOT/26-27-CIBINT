@@ -99,7 +99,8 @@ Entrega la versión definitiva siguiendo los [requisitos del informe](03-informe
 | `registros/bitacora.csv` | Acciones, resultados, decisiones y consultas sin resultado útil |
 | `registros/integridad.csv` | Relación de los archivos conservados como evidencia, con SHA-256 y MD5 de la misma versión |
 | `seguimiento.md` | Cambios de los tres avances y correcciones incorporadas o razonadas |
-| `registro-ia.md` | Declaración y registro completo; si no se utilizó IA, declaración expresa |
+| `registro-ia.md` | Declaración y registro acumulado de todos los usos, con prompts y respuestas completos; si no se utilizó IA, declaración expresa |
+| `ia/` | Capturas o exportaciones completas que respaldan los usos registrados; obligatoria cuando se haya utilizado IA |
 | `recursos/` | Solo figuras propias, recortes necesarios y scripts utilizados que puedan conservarse conforme al alcance |
 
 Los tres CSV deben utilizar los encabezados de las plantillas de [fuentes](plantillas/fuentes.csv), [hallazgos](plantillas/hallazgos.csv) y [bitácora](plantillas/bitacora.csv). Se pueden preparar con un editor de texto o una hoja de cálculo y guardarse como CSV en UTF-8. No dejes fórmulas o vínculos privados en el lugar de los datos.
@@ -118,7 +119,8 @@ entregas/apellidoNombre/PF/
 ├── TEMA/
 │   ├── README.md
 │   ├── propuesta.md
-│   └── registro-ia.md
+│   ├── registro-ia.md
+│   └── ia/
 ├── P1/
 ├── P2/
 ├── P3/
@@ -132,11 +134,14 @@ entregas/apellidoNombre/PF/
 │   │   └── integridad.csv
 │   ├── seguimiento.md
 │   ├── registro-ia.md
+│   ├── ia/
 │   └── recursos/
 └── PRESENTACION/
 ```
 
-El `README.md` de `PF/` identifica el proyecto y enlaza los hitos ya disponibles. Cada carpeta de avance conserva su versión de `informe.md`, los registros de trabajo, el seguimiento, la declaración de IA y los recursos necesarios para abrirla. Así se puede revisar un hito sin depender de archivos que se cambien en otro. En P1 y P2, una tabla todavía sin observaciones se conserva con sus encabezados y una explicación; no se rellena con datos inventados.
+El `README.md` de `PF/` identifica el proyecto y enlaza los hitos ya disponibles. Cada carpeta de avance conserva su versión de `informe.md`, los registros de trabajo, el seguimiento, el registro de IA con sus evidencias y los recursos necesarios para abrirla. La carpeta `ia/` se incluye cuando se haya utilizado IA y conserva las conversaciones completas de los usos acumulados hasta el hito. Si no se ha utilizado, basta la declaración expresa en `registro-ia.md`. Así se puede revisar un hito sin depender de archivos que se cambien en otro. En P1 y P2, una tabla todavía sin observaciones se conserva con sus encabezados y una explicación; no se rellena con datos inventados.
+
+Las [condiciones de uso de IA](README.md#uso-de-inteligencia-artificial) son obligatorias en todos los hitos. Su incumplimiento, incluidos los usos no declarados y la falta del registro, de los prompts, de las respuestas o de las evidencias completas de los usos realizados, supondrá **0 sobre 10 en el proyecto final**.
 
 Para cada hito:
 
