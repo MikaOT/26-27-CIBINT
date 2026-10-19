@@ -22,4 +22,7 @@
   4. Cita las referencias legales correctamente cuando formalices el texto (ej. Artículo 197 del Código Penal, Reglamento General de Protección de Datos - RGPD).
   5. Redacta las secciones de aportación individual en el Apartado "Equipo" en primera persona, manteniendo la formalidad y asignando exactamente las tareas descritas en el borrador a "José Luis de la Asunción", "Sergio Rodríguez" y "Alejandro Ateca".
   6. No inventes procedimientos operativos que no estén sugeridos en el borrador; limítate a expandir, argumentar y dotar de formalidad técnica a los apuntes existentes.
-  
+
+- **Qué hicimos con la respuesta:** Utilizamos la estructura generada en Markdown y la revisión ortotipográfica para volcar nuestro borrador a la plantilla oficial. Comprobamos minuciosamente que la IA no hubiera inventado ninguna evidencia, ni tomado decisiones operativas autónomas, ni alterado los riesgos de OPSEC que habíamos definido previamente en nuestras notas. Finalmente, descartamos y eliminamos los recuadros de instrucciones de la plantilla inicial como pedían las normas.
+
+- **Evidencia:** [uso-01.png](ia/uso-01.png)
