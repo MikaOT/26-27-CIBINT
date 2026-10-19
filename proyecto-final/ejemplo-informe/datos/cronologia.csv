@@ -1,0 +1,25 @@
+evento_id,fecha_hora_utc,evento,evidencia
+C01,2026-05-04T01:20:00Z,Compromiso de cinco webs Drupal establecido en revision simulada,E-03
+C02,2026-05-04T02:00:00Z,Retirada preventiva de las 24 webs,E-05
+C03,2026-05-04T05:10:00Z,Revision detecta compromiso de cuatro WordPress,E-04
+C04,2026-05-05T10:00:00Z,Reapertura de las webs reconstruidas,E-05
+C05,2026-05-10T00:20:00Z,Apropiacion simulada de cuenta administradora GitLab,E-06
+C06,2026-05-12T13:40:00Z,Emision de VPN-417,E-10
+C07,2026-05-12T13:41:10Z,Primera sesion con VPN-417,E-10
+C08,2026-05-12T13:44:00Z,Inicio del borrado de 418 repositorios,E-07
+C09,2026-05-12T13:47:00Z,Inicio de consumidores no autorizados en 48 colas,E-08
+C10,2026-05-12T14:08:00Z,Fin de la ventana de metricas de consumidores,E-09
+C11,2026-05-12T14:12:00Z,Aviso de PROF-01 sobre RabbitMQ,E-14
+C22,2026-05-12T16:00:00Z,Constancia suficiente de brecha de datos personales,E-32
+C12,2026-05-12T17:20:00Z,Primera entrega documentada de VPN-417 a PROF-01,E-11
+C13,2026-05-13T08:00:00Z,Acusacion basada en la identidad nominal de la VPN,E-15
+C14,2026-05-13T10:00:00Z,Orden de formatear el equipo,E-16
+C15,2026-05-13T10:15:00Z,Oposicion al formateo y preservacion,E-16
+C16,2026-05-14T02:10:00Z,Borrado de datos de gestion,E-17
+C17,2026-05-14T02:18:00Z,Exigencia de 0.5 BTC,E-18
+C18,2026-05-14T03:00:00Z,Inicio del mantenimiento de gestion,E-19
+C23,2026-05-14T09:00:00Z,Notificacion simulada a la autoridad competente,E-32
+C24,2026-05-14T12:00:00Z,Informacion simulada a las personas afectadas,E-32
+C19,2026-05-17T03:00:00Z,Reapertura de gestion,E-19
+C20,2026-05-21T11:00:00Z,Retirada de la atribucion personal sin identificar al operador,E-22
+C21,2026-05-22T12:00:00Z,Corte del informe sin constancia de reparacion de la comunicacion,E-23

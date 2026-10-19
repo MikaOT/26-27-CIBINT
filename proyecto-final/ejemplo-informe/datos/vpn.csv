@@ -1,0 +1,4 @@
+evento,fecha_hora_utc,credencial,identidad_nominal,origen_o_destino,evidencia
+emision,2026-05-12T13:40:00Z,VPN-417,PROF-01,administracion_Guayaquil,E-10
+primera_sesion,2026-05-12T13:41:10Z,VPN-417,PROF-01,198.51.100.27,E-10
+primera_entrega_documentada,2026-05-12T17:20:00Z,VPN-417,PROF-01,destinatario_Santander,E-11

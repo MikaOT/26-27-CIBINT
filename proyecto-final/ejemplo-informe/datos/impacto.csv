@@ -1,0 +1,10 @@
+variable,valor,unidad,naturaleza,evidencia
+operaciones_diarias,2400,operaciones,supuesto_docente,E-21
+importe_medio,80,EUR_por_operacion,supuesto_docente,E-21
+dias_mantenimiento,3,dias,hecho_del_escenario,E-19
+recuperacion_comercial,0.60,proporcion,estimacion_docente,E-21
+margen_contribucion,0.30,proporcion,supuesto_docente,E-21
+horas_extra,960,horas,estimacion_docente,E-21
+coste_hora_extra,45,EUR_por_hora,supuesto_docente,E-21
+coste_proveedor,18000,EUR,estimacion_docente,E-21
+exigencia_rescate,0.5,BTC,exigencia_no_pagada,E-18

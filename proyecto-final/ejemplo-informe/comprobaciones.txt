@@ -1,0 +1,18 @@
+Operación Faro · Comprobaciones de los datos docentes
+Eventos ordenados con referencias conocidas: 24
+Referencias del expediente: 32; corpus OSINT/SOCMINT: 8 piezas; infraestructura: 8 relaciones
+Mensajeria: categorias documentadas sin valores personales ni secretos
+Brecha: notificacion a autoridad en 41 horas; informacion a personas en 44 horas desde constancia suficiente
+Emisión a primer uso VPN: 70 segundos
+Primera sesión antes de la entrega documentada: 13130 segundos (3:38:50)
+Retirada de webs: 32 horas; mantenimiento de gestión: 72 horas
+Antigüedad del punto restaurado respecto al borrado: 26 horas y 10 minutos
+Repositorios recuperados por número: 97.13 %; no mide integridad
+Volumen comercial teórico expuesto: 576000 EUR; no es pérdida confirmada
+Coste de respuesta modelado: 61200 EUR
+Margen no recuperado modelado al 60 % de recuperación: 69120 EUR
+Escenario conjunto con recuperación 80 %: 95760 EUR
+Escenario conjunto con recuperación 60 %: 130320 EUR
+Escenario conjunto con recuperación 40 %: 164880 EUR
+Rescate: 0.5 BTC exigidos; no incluido como coste pagado
+La aritmética no autentica evidencias ni identifica personas.

@@ -1,0 +1,7 @@
+activo_id,nombre_docente,funcion,tecnologia,relacion,evidencia
+A01,portal-drupal.boreamar.example,Grupo de cinco portales afectados,Drupal 7.57,cinco de catorce Drupal,E-02
+A02,portal-wp.boreamar.example,Grupo de cuatro portales afectados,WordPress 5.0.0,cuatro de diez WordPress,E-02
+A03,gitlab.interno.boreamar.example,Repositorios institucionales,GitLab CE 16.7.1,418 repositorios antes del borrado,E-07
+A04,eventos.interno.boreamar.example,Mensajeria de microservicios,RabbitMQ,48 colas de aplicacion,E-08
+A05,gestion.interno.boreamar.example,Gestion y venta,Aplicacion institucional sin CVE establecida,cuenta svc-gestion,E-17
+A06,vpn.boreamar.example,Acceso institucional,VPN con certificados,emision y entrega separadas,E-10
