@@ -2,7 +2,7 @@
 
 Este repositorio es público. Todo lo que se abre como *issue*, *pull request* o debate queda a la vista de cualquiera.
 
-Cuando algo **no debe verse en público**, se comunica por el canal privado que se describe aquí. El aviso llega directamente al profesor y solo lo ve él.
+Cuando algo **no debe verse en público**, se comunica por el canal privado que se describe aquí. El aviso se recibe de forma privada para su revisión y seguimiento.
 
 ## Cuándo usar este canal
 
@@ -35,7 +35,7 @@ Preguntar no penaliza. Continuar sin preguntar, sí.
 4. En **Description**, pega la plantilla de abajo y complétala.
 5. Envía.
 
-Se abre un hilo privado entre tú y el profesor. Puedes responder ahí hasta que el asunto quede cerrado. Nadie más lo ve.
+Se abre un hilo privado para el seguimiento del aviso, con acceso limitado a quien lo comunica y a quien lo atiende. Puedes responder ahí hasta que el asunto quede cerrado.
 
 Necesitas una cuenta de GitHub, la misma con la que haces las entregas.
 
@@ -49,7 +49,7 @@ Describe la exposición; **no la reproduzcas**. Un aviso no debe contener:
 - datos personales que no sean imprescindibles para entender el aviso;
 - cargas útiles, exploits o pruebas de concepto.
 
-Basta con decir **qué tipo de dato apareció, dónde y en qué circunstancias**. Si hace falta más detalle, el profesor lo pedirá en el hilo.
+Basta con decir **qué tipo de dato apareció, dónde y en qué circunstancias**. Si hace falta más detalle, se solicitará en el hilo.
 
 ## Plantilla
 

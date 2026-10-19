@@ -2,6 +2,8 @@
 
 Esta carpeta recibe las actividades publicables mediante *pull request*. Cada estudiante trabaja en un *fork* personal y modifica únicamente su propia carpeta.
 
+El **proyecto final** se entrega aquí mediante pull request, dentro de `entregas/apellidoNombre/PF/`, con las subcarpetas `TEMA`, `P1`, `P2`, `P3`, `FINAL` y `PRESENTACION`. Cada hito tiene su propio pull request. **La excepción son las investigaciones sobre uno mismo y los casos personales autorizados:** su propuesta y todas sus entregas utilizan el canal privado previamente acordado, sin publicar archivos en el fork público. Consulta las [instrucciones del proyecto](../proyecto-final/02-proceso-y-entregas.md#procedimiento-de-entrega).
+
 ## Nombre de la carpeta personal
 
 Formato:
@@ -36,8 +38,14 @@ entregas/
     ├── A02/
     │   ├── README.md
     │   └── diagrama.puml
-    └── CODIGO-INDICADO/
-        └── archivos solicitados
+    └── PF/
+        ├── README.md
+        ├── TEMA/
+        ├── P1/
+        ├── P2/
+        ├── P3/
+        ├── FINAL/
+        └── PRESENTACION/
 ```
 
 El nombre de la actividad debe coincidir exactamente con el código de su enunciado. No se agrupan varias actividades en una misma carpeta.
@@ -67,7 +75,7 @@ entregas/grupos/
 
 Cuando un enunciado indique que la actividad es en grupo:
 
-- las carpetas de los grupos **las crea el profesor**, con los archivos de partida que indique el enunciado;
+- las carpetas de los grupos **se crearán previamente**, con los archivos de partida que indique el enunciado;
 - cada grupo trabaja **solo** dentro de su carpeta;
 - **solo el portavoz** abre el *pull request*, desde su propio *fork*;
 - el resto de miembros deja un comentario en ese *pull request* indicando que ha revisado la entrega y que está conforme;
@@ -97,7 +105,7 @@ No se suben:
 - credenciales, secretos, tokens o claves;
 - volcados, filtraciones o evidencias de acceso restringido;
 - capturas que expongan identificadores o sesiones;
-- informes que el enunciado derive al Campus Virtual.
+- proyectos personales autorizados para entrega privada e informes que el enunciado derive a un canal privado.
 
 ## Flujo de entrega
 

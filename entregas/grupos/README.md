@@ -10,7 +10,7 @@ Esta carpeta reúne las entregas de las actividades que se realizan en grupo. Ha
 
 | Regla | Detalle |
 |---|---|
-| Quién crea las carpetas | El profesor, con los archivos de partida que indique el enunciado |
+| Creación de las carpetas | Se crearán previamente, con los archivos de partida que indique el enunciado |
 | Quién entrega | Solo el portavoz del grupo, con un único *pull request* desde su *fork* |
 | Dónde se trabaja | Solo dentro de la carpeta del propio grupo |
 | Con quién se trabaja | Únicamente con el propio equipo, sin compartir trabajo con otros grupos antes de la entrega |

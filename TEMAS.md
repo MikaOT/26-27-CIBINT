@@ -1,5 +1,7 @@
 # Temas de la asignatura
 
+El [proyecto final individual](proyecto-final/README.md) aplica estos temas a un caso real elegido y aprobado, incluida una investigación sobre tu propia huella digital. Las [opciones de tema](proyecto-final/01-tema-y-alcance.md) ofrecen casos públicos y personales con sus límites. La [guía de trabajo por temas](proyecto-final/02-proceso-y-entregas.md#desarrollo-del-proyecto-y-aplicación-de-los-contenidos) indica qué incorporar a medida que avanza la asignatura.
+
 Los contenidos se mantienen en el repositorio general [CIBINT](https://github.com/hector-ae21/CIBINT). Esta página permite acceder directamente a cada tema desde el repositorio del curso 2026-2027.
 
 | Tema | Contenido | Material |
