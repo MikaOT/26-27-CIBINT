@@ -1,0 +1,9 @@
+pieza_id,tipo,fecha_referencia_utc,referencia_ficticia,observacion,evidencia,limitacion
+OS01,aviso_legal,2026-05-03T09:00:00Z,https://boreamar.example/aviso-legal,Relaciona marca Boreamar con la entidad RIFSB,E-29,No autentica un mensaje de otra cuenta
+OS02,enlaces_corporativos,2026-05-03T09:05:00Z,https://boreamar.example/contacto,Enlaza la cuenta institucional boreamar_institucional,E-29,No acredita otras cuentas de nombre parecido
+OS03,archivo_portada,2026-05-03T09:10:00Z,archivo-docente-portada,La captura conserva dominio y enlaces previos al incidente,E-29,Fecha de captura distinta de fecha de publicacion
+OS04,programa_profesional,2026-04-20T10:00:00Z,programa-docente-evento,PROF-01 aparece con una funcion profesional de soporte,E-29,No demuestra control de VPN ni actividad privada
+OS05,publicacion_institucional,2026-05-04T08:00:00Z,https://social.example/boreamar_institucional/01,Comunica una incidencia tecnica sin detalle de alcance,E-30,Es la version de la entidad en esa fecha
+OS06,cuenta_parecida,2026-05-04T09:00:00Z,https://social.example/boreamar_soporte_urgente/02,Afirma representar el soporte sin enlace corporativo,E-30,Relacion con RIFSB no confirmada
+OS07,republicacion,2026-05-04T09:30:00Z,https://social.example/boletin_docente/03,Repite OS05 sin aportar otra comprobacion,E-30,No es confirmacion independiente
+OS08,imagen_reutilizada,2026-05-15T12:00:00Z,https://social.example/archivo_docente/04,Presenta como nueva una captura coincidente con la alteracion del dia 4,E-30,No prueba otra intrusión el dia 15

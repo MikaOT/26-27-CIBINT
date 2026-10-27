@@ -1,0 +1,13 @@
+id,fecha,quien_lo_afirma,contenido,fuente_ref
+N01,2026-05-01,"Naturgy, en X, recogido por Euronews","Naturgy comunica un acceso no autorizado a una base de datos de un proveedor externo y afirma que el incidente no procede de sus sistemas propios.",F01
+N02,2026-05-01,Naturgy,"Según la compañía, el incidente afecta aproximadamente al 3% de sus clientes en España.",F01
+N03,2026-05-01,"Naturgy, en texto de agencia","Los datos afectados son identificativos, contractuales y bancarios.",F02
+N04,2026-05-01,Naturgy,"La compañía afirma que no se incluyen contraseñas ni credenciales de acceso al Área Cliente.",F01
+N05,2026-05-01,"Naturgy, en texto de agencia","La compañía afirma haber informado a la AEPD, a las fuerzas de seguridad y a los clientes afectados.",F02
+N06,2026-05-01,"Naturgy, en texto de agencia","Medidas comunicadas: renovación de credenciales, bloqueo de accesos y auditorías de seguridad, también sobre los sistemas del proveedor.",F02
+N07,2026-05-01,Escudo Digital,"El titular visible del medio cifra los afectados en 200.000 clientes; la dirección web y los metadatos de la misma noticia dicen «medio millón».",F03
+N08,2026-05-29,Ciberseguridad Creando Patria,"El sitio atribuye a las cifras oficiales de la compañía unos 200.000 afectados, aproximadamente el 3% de su cartera, y recoge que un actor con el alias Spain alega haber accedido a 1,34 millones de contratos.",F04
+N09,2026-09-18,ADSLZone,"Un usuario con el alias spain afirma tener datos de unos 1,8 millones de clientes de Naturgy (74 GB) y los ofrece a la venta aportando capturas. El medio indica que Naturgy no ha confirmado el ataque.",F05
+N10,2026-09-19,El Grupo Informático,"El medio recoge la oferta a partir de una cuenta de X que monitoriza la web oscura y enumera como datos supuestos NIF, nombre, IBAN, correo, teléfono, dirección, identificadores de suministro y contratos. Indica que Naturgy no ha confirmado el hackeo.",F06
+N11,2026-09-19,El Grupo Informático,"El medio recomienda a los clientes estar atentos a correos fraudulentos, SMS sospechosos y llamadas.",F06
+N12,2026-05-29,Ciberseguridad Creando Patria,"El sitio afirma que la compañía notificó el incidente a la AEPD dentro del plazo de 72 horas que exige el RGPD.",F04

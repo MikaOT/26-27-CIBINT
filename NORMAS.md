@@ -19,6 +19,8 @@ Debe estar claro:
 
 No se inicia una recogida sistemática sobre un caso que requiera aprobación hasta haberla recibido.
 
+En el proyecto final puede autorizarse una investigación sobre uno mismo o un caso personal delimitado. Antes de compartir la propuesta, deben quedar acordados el alcance, la autorización disponible, los datos imprescindibles y el canal privado de entrega. Esta modalidad permite trabajar sobre datos propios o expresamente autorizados; no permite investigar por extensión a otras personas ni realizar pruebas técnicas excluidas. La autorización para estudiar el caso no implica permiso para publicarlo.
+
 ## Acciones permitidas
 
 Dentro del alcance autorizado en cada enunciado, se podrá:
@@ -36,12 +38,12 @@ Dentro del alcance autorizado en cada enunciado, se podrá:
 No se permite:
 
 - escanear puertos, vulnerabilidades, rutas o directorios de objetivos no autorizados;
-- utilizar fuerza bruta, probar credenciales o intentar iniciar sesión;
+- utilizar fuerza bruta, probar credenciales expuestas o intentar iniciar sesión en cuentas ajenas; el acceso normal a tus propias cuentas solo se utiliza cuando está previsto en el alcance;
 - explotar o validar activamente una posible vulnerabilidad;
 - enviar mensajes, archivos o solicitudes de prueba a la organización o a su personal;
 - realizar ingeniería social o suplantar identidades;
 - crear perfiles falsos para eludir restricciones o acceder a contenido cerrado;
-- investigar a personas privadas, relaciones personales, familiares, docentes o compañeros;
+- investigar a personas privadas, relaciones personales, familiares, docentes o compañeros fuera de un caso personal expresamente autorizado y delimitado;
 - recopilar rutinas, localización, domicilio, información financiera o categorías especiales de datos;
 - buscar, descargar, intercambiar o publicar credenciales filtradas;
 - eludir controles de acceso, condiciones de uso o medidas técnicas;
@@ -57,7 +59,7 @@ La lista no pretende anticipar todas las situaciones. Una técnica no mencionada
 - No subir capturas completas si una transcripción o recorte anonimizado es suficiente.
 - No almacenar copias de filtraciones ni contenidos obtenidos de forma dudosa.
 - Distinguir la referencia a una exposición de la posesión del dato expuesto.
-- Utilizar el Campus Virtual cuando el enunciado indique que la entrega no puede ser pública.
+- Utilizar el canal privado acordado cuando el enunciado o la autorización indiquen que la entrega no puede ser pública.
 - Avisar mediante un canal privado, sin redistribuir el contenido, si aparece un secreto, credencial o dato sensible inesperado.
 
 ## Repositorio público y Campus Virtual
@@ -66,8 +68,10 @@ La lista no pretende anticipar todas las situaciones. Una técnica no mencionada
 |---|---|
 | Enunciados y materiales | Repositorio público |
 | Ejercicios con datos ficticios, reservados o anonimizados | *Pull request* público |
+| Proyecto final con contenido publicable | *Pull request* público, un hito por entrega |
+| Investigación sobre uno mismo o caso personal autorizado | Repositorio privado con acceso habilitado para la revisión u otro canal privado acordado |
 | Preguntas generales | Discussions |
-| Datos personales o evidencias no publicables | Campus Virtual |
+| Datos personales o evidencias no publicables | Canal privado indicado en el enunciado o previamente acordado |
 | Calificaciones y situaciones individuales | Campus Virtual, correo o tutoría |
 
 Que una actividad se trabaje en el repositorio no autoriza a publicar información que infrinja estas normas. En caso de conflicto, se utiliza el canal privado indicado en el enunciado.
@@ -78,7 +82,7 @@ Toda entrega debe:
 
 - diferenciar hechos, inferencias y supuestos;
 - citar la fuente y la fecha de consulta;
-- indicar contradicciones y lagunas relevantes;
+- indicar contradicciones y limitaciones relevantes;
 - expresar el nivel de confianza sin exagerar la certeza;
 - evitar acusaciones o atribuciones no sustentadas;
 - utilizar un lenguaje proporcionado y respetuoso;

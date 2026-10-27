@@ -1,0 +1,5 @@
+categoria,campo_docente,valor_incluido,estado_en_el_escenario,riesgo,evidencia
+identificacion,nombre_y_correo,no,Contenido legible para consumidores autorizados o no autorizados,Suplantacion y contactos fraudulentos,E-28
+pago,referencia_cuenta_pago,no,Campo en texto claro sin cifrado de contenido,Fraude e identificacion de operaciones,E-28
+autenticacion,password_usuario,no,Contraseña de aplicacion transmitida en texto claro,Toma de cuentas y reutilizacion de credenciales,E-28
+transporte,conexion_AMQP,no,Enlace interno sin TLS,Intercepcion por quien tenga acceso a ese tramo,E-28

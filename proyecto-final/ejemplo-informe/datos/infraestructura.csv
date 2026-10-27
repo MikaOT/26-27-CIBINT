@@ -1,0 +1,9 @@
+registro_id,tipo,fecha_observacion_utc,nombre,valor,evidencia,limite
+INF01,RDAP_dominio_simulado,2026-05-03T09:00:00Z,boreamar.example,Alta en 2011 con proveedor de registro separado,E-26,No identifica a quien administra aplicaciones
+INF02,CNAME,2026-05-03T09:10:00Z,portal-drupal.boreamar.example,frontal.alojamiento.example,E-31,Relacion de servicio no propiedad completa
+INF03,A,2026-05-03T09:10:00Z,frontal.alojamiento.example,203.0.113.20,E-31,Destino observado solo en esa fecha
+INF04,A,2026-05-03T09:10:00Z,portal-wp.boreamar.example,203.0.113.20,E-31,IP compartida no identifica al administrador
+INF05,A,2026-05-03T09:10:00Z,tienda-ajena.example,203.0.113.20,E-27,Tercero fuera del alcance
+INF06,RDAP_rango_simulado,2026-05-03T09:20:00Z,203.0.113.0/24,Proveedor de alojamiento ficticio,E-31,No atribuye el rango a RIFSB
+INF07,CT_SAN,2026-04-12T10:00:00Z,gitlab.interno.boreamar.example,Nombre incluido en certificado de abril,E-27,No prueba despliegue ni accesibilidad publica
+INF08,indice_HTTPS,2026-05-03T10:00:00Z,portal-wp.boreamar.example,443 TCP con certificado web,E-31,No confirma tecnologia ni cifra AMQP interno

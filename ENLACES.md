@@ -15,5 +15,5 @@
 |---|---|
 | [Discussions · Q&A](https://github.com/hector-ae21/26-27-CIBINT/discussions/categories/q-a) | Dudas cuya respuesta pueda ayudar a todo el grupo |
 | [Canal privado en GitHub](SECURITY.md) | Exposición accidental de datos, dudas sobre los límites de una práctica e incidentes durante una actividad |
-| [Correo del profesor](mailto:hector.arrechea@uneatlantico.es) | Situaciones personales o información que requiera privacidad |
-| Tutoría | Solicitud mediante el correo del profesor |
+| [Correo de contacto](mailto:hector.arrechea@uneatlantico.es) | Situaciones personales o información que requiera privacidad |
+| Tutoría | Solicitud mediante el correo de contacto |
