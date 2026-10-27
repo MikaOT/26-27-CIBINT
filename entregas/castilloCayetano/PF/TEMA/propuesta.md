@@ -1,12 +1,12 @@
 # PF-TEMA · Propuesta individual
 
-**Estudiante:** Cayetano Castillo Ruiz 
+**Estudiante:** Cayetano Castillo Ruiz   
 **Fecha y versión:** 27 de octubre de 2026, v0.1  
 **Título provisional:** El uso de IA en el descubrimiento acelerado de vulnerabilidades: Análisis de amenaza sobre los fallos críticos de PHP2Shell y sus evasiones.
 
 **Modalidad:** Incidente / Exposición  
 **Canal de entrega:** Repositorio público mediante pull request  
-**Número de palabras y método de recuento:** 781 palabras (herramienta de conteo del procesador de texto, excluyendo portadas e índices).
+**Número de palabras y método de recuento:** 781 palabras (herramienta de conteo del procesador de texto, excluyendo portadas e índices). (Gemini Pro)
 
 ## 1. Caso real y situación de partida
 
