@@ -49,6 +49,7 @@ Una organización cuida lo que publica a propósito: su web, sus avisos, sus per
 El objetivo es el de tu A03 y cumple sus [requisitos](../A03-huella-publica/README.md#3-elige-el-objetivo). No se cambia de objetivo ni de modalidad entre las dos actividades.
 
 - La **modalidad B** solo es posible si enviaste en plazo el correo de solicitud de la A03. Con ese correo quedan habilitadas las entregas de la A03 y de la A04 en el Campus Virtual. Si no lo enviaste, la A04 se hace en la modalidad A.
+- Si el objetivo pertenece a un sector sensible o ha sufrido un incidente, se mantienen las [reglas reforzadas de la A03](../A03-huella-publica/README.md#31-modalidad-a--organización) y las de Shodan de los apartados 4 y 7.
 - La A04 **se califica por sí misma**. Si no entregaste la A03, elige el objetivo con los mismos requisitos y construye en el apartado 2 una ficha mínima con las herramientas del Tema 3.
 
 Si dudas de si una consulta entra en el alcance, pregunta por el [canal privado](../../SECURITY.md) antes de hacerla.
@@ -57,8 +58,8 @@ Si dudas de si una consulta entra en el alcance, pregunta por el [canal privado]
 
 | Herramienta | Modalidad A · Organización | Modalidad B · Huella propia | Carácter |
 |---|---|---|---|
-| [**Shodan**](https://github.com/hector-ae21/CIBINT/blob/main/contenidos/04-osint-tecnico-infraestructura-y-exposicion/herramientas.md#shodan-consultar-observaciones-de-servicios) | Tres consultas con filtros distintos, lectura de facetas y al menos dos fichas analizadas | Tu dominio o tu web, si tienes, y la IP pública de tu conexión con `ip:`. Un resultado vacío también es un hallazgo | Obligatoria |
-| [**FOCA**](https://github.com/hector-ae21/CIBINT/blob/main/contenidos/04-osint-tecnico-infraestructura-y-exposicion/herramientas.md#foca-extraer-metadatos-de-los-documentos-publicados) | Entre 15 y 30 documentos del dominio analizados y resumen por categorías | Entre 5 y 30 documentos publicados por ti, con el análisis local, y resumen por categorías | Obligatoria |
+| [**Shodan**](https://github.com/hector-ae21/CIBINT/blob/main/contenidos/04-osint-tecnico-infraestructura-y-exposicion/herramientas.md#shodan-consultar-observaciones-de-servicios) | Tres consultas con filtros distintos, lectura de facetas y al menos dos fichas analizadas. En sectores sensibles, solo `hostname:`, `ssl:` y `ssl.cert.subject.cn:` sobre los dominios corporativos | Tu dominio o tu web, si tienes, y la IP pública de tu conexión con `ip:`. Un resultado vacío también es un hallazgo | Obligatoria |
+| [**FOCA**](https://github.com/hector-ae21/CIBINT/blob/main/contenidos/04-osint-tecnico-infraestructura-y-exposicion/herramientas.md#foca-extraer-metadatos-de-los-documentos-publicados) | Entre 15 y 30 documentos del dominio analizados, o todos los disponibles si hay menos, y resumen por categorías | Entre 5 y 30 documentos publicados por ti, con el análisis local, y resumen por categorías | Obligatoria |
 | Maltego | Ampliar el grafo de la A03 con los hallazgos técnicos y documentales | Ampliar el grafo de la A03 | Obligatoria |
 | [crt.sh](https://github.com/hector-ae21/CIBINT/blob/main/contenidos/04-osint-tecnico-infraestructura-y-exposicion/herramientas.md#icann-lookup-dns-y-crtsh-resolver-preguntas-acotadas), [Censys](https://github.com/hector-ae21/CIBINT/blob/main/contenidos/04-osint-tecnico-infraestructura-y-exposicion/herramientas.md#censys-consultar-hosts-sitios-y-certificados) o [SecurityTrails](https://github.com/hector-ae21/CIBINT/blob/main/contenidos/04-osint-tecnico-infraestructura-y-exposicion/herramientas.md#securitytrails-comparar-dns-actual-e-histórico) | Contrastar si un resultado de Shodan pertenece a la organización | Contrastar los resultados de tu dominio, si tienes | Recomendada |
 
@@ -150,6 +151,7 @@ Se aplican íntegramente las [normas de la asignatura](../../NORMAS.md). En esta
 | Visitar la web pública del objetivo como cualquier visitante | Abrir en el navegador o en cualquier otro programa las IP o puertos de terceros encontrados en Shodan |
 | Descargar documentos públicos del objetivo, dentro del número indicado, y analizarlos con FOCA | Usar los nodos `Network` y `Domains` de FOCA, sus `Plugins` o cualquier función de búsqueda DNS, rastreo o prueba sobre servidores |
 | En la modalidad B, revisar tus propios equipos y cuentas con el acceso normal de titular | Escanear tu red o la de otros con herramientas de reconocimiento: la actividad es de fuentes abiertas |
+| En sectores sensibles, consultar Shodan por los dominios corporativos de la organización | En entidades sanitarias, de transporte, energía, agua, defensa o seguridad, usar `org:`, `net:` o búsquedas por producto, o abrir fichas de servicios que no sean web o correo |
 | Indicar de forma general que una versión declarada figura en un catálogo de fallos | Publicar vulnerabilidades asociadas a una IP o un servicio concretos, o comprobar si existen |
 | Proponer medidas y comprobaciones al destinatario | Investigar a las personas que aparezcan en los metadatos, ni contactar con la organización o su personal |
 

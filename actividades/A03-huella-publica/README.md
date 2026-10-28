@@ -50,9 +50,16 @@ La explicación del Tema 3 sobre [OSINT ético y uso malicioso](https://github.c
 
 | La organización debe | No se puede elegir |
 |---|---|
-| Ser real y tener actividad pública en España o en Europa: empresa, administración local o autonómica, universidad, federación, club, fundación u ONG | Una persona física distinta de ti, un profesional autónomo o un negocio identificado con una persona |
-| Tener un dominio web propio con **al menos diez documentos indexados**, necesarios para la A04. Compruébalo antes de elegirla con `site:DOMINIO filetype:pdf` | Un centro educativo de menores, una entidad sanitaria, de defensa o de seguridad, ni un operador de servicios esenciales como energía, agua o transporte |
-| Tener información societaria o institucional publicada, en el BORME o en otra fuente oficial | Una organización afectada por un incidente en curso, ni las de los casos de A01 y A02 |
+| Ser real y tener actividad pública en España o en Europa: empresa, administración, universidad, hospital, operador de transporte o de otro servicio, biblioteca, federación, club, fundación, asociación u ONG | Una persona física distinta de ti, ni un profesional que actúa con su propio nombre |
+| Tener un dominio web propio con documentos publicados, necesarios para la A04. Compruébalo antes de elegirla con `site:DOMINIO filetype:pdf` | Un centro educativo de menores |
+| Tener información societaria o institucional publicada, en el BORME o en otra fuente oficial | Las organizaciones de los casos de A01 y A02 |
+
+**Sectores sensibles e incidentes.** Puedes elegir una entidad sanitaria, de transporte, energía, agua, defensa o seguridad, o una organización que haya sufrido un incidente, como los casos documentados del proyecto final. En ese caso se aplican además estas reglas:
+
+- se estudia solo la organización y sus canales públicos: no se buscan datos de pacientes, viajeros, clientes ni empleados;
+- no se buscan, abren ni descargan materiales del incidente, como muestras, filtraciones o anuncios de venta, ni se visitan los foros donde se ofrezcan;
+- no se relaciona un hallazgo propio con el incidente si ninguna fuente lo hace;
+- en la A04, Shodan se consulta solo por los dominios corporativos de la organización.
 
 Puedes elegir una organización que conozcas o con la que tengas relación. En ese caso, trabaja igual que con cualquier otra: solo con fuentes abiertas y sin utilizar información que conozcas por esa relación.
 
