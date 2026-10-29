@@ -20,6 +20,8 @@ El nombre de la carpeta de entrega debe utilizar el código completo indicado en
 |---|---|---:|---|
 | `A01` | [Del dato a la inteligencia](A01-del-dato-a-la-inteligencia/README.md) | 1 | Lunes 21 de septiembre de 2026, 12:15 |
 | `A02` | [Plan de investigación](A02-plan-de-investigacion/README.md) · en grupo | 2 | Lunes 12 de octubre de 2026, 12:15 |
+| `A03` | [Huella pública](A03-huella-publica/README.md) · individual | 3 | Viernes 30 de octubre de 2026, 23:59 |
+| `A04` | [Exposición técnica y documental](A04-exposicion-tecnica-y-documental/README.md) · individual, continuación de la A03 | 4 | Viernes 6 de noviembre de 2026, 23:59 |
 
 
 ## Proyecto final individual
